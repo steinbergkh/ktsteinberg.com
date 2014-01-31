@@ -19,14 +19,13 @@
 }
 
 div#project-container{
-    width: 85%;
     margin: 10px 5px;
     padding: 10px;
     
 }
 
 div.project{
-    display: inline;
+    //display: inline;
     background: rgb(0, 165, 166);
     padding: 15px;
     margin: 0 15px 4px 0;
