@@ -27,8 +27,8 @@ div.project-header{
 }
 
 div#project-container{
-    margin: 10px auto;
-    padding: 10px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .project li{
@@ -41,7 +41,7 @@ div.project{
     //display: inline;
     background: rgb(0, 165, 166);
     padding: 15px;
-    margin: 10px auto;
+    margin: 10px auto 40px auto;
     vertical-align: middle;
     border-radius: 10px;
     width: 95%;
@@ -52,19 +52,25 @@ div.project-title{
     border-bottom: 1px solid white;
     margin-bottom: 5px;
 }
+div.project-title.adpi{
+	height: 105px;
+}
 
 .project img{
-    float: left;
-    background: #005b63;
-    padding: 10px;
+	float: left;
+	background: rgba(0, 91, 99, 0.12);
+	border-radius: 5px;
+	padding: 10px;
+	margin-top:-6px;
 }
 .project img.horizontal{
     margin: 0 5px;
     width:240px;
 }
 .project img.vertical{
-    margin: 0 5px;
-    height: 120px;
+	padding: 2px;
+	margin: -14px 3px 5px 2px;
+	height: 100px;
 }
 .project div.header{
     display: inline-block; 
@@ -87,6 +93,15 @@ div.project-title{
     padding:5px 2px;
     margin-top: 15px;
 }
+.project .header.adpi{
+	margin-top:0;
+}
+.project .header.adpi h2{
+        font-size: 34px;
+}
+.project .header.adpi h3{
+	font-size: 26px;
+}
 .project ul{
     display: block;
 }
@@ -95,6 +110,10 @@ div.project-title{
     color: white;
 }
 .project a{
+	text-decoration:none;
+	color: white;
+}
+.project a:hover{
     text-decoration: underline;
     color: white;
 }
@@ -103,7 +122,7 @@ div.project-title{
     display: inline-block;
 }
 .project .adpi-web div.compare h3{
-    margin: 5px auto;
+    margin: 15px auto;
 }
 .project img:hover{
     opacity: 0.9;
