@@ -18,23 +18,33 @@
     text-align: center;
 }
 
+div.project-header{
+    padding: 10px;
+}
+
 div#project-container{
-    margin: 10px 5px;
+    margin: 10px auto;
     padding: 10px;
     
+}
+
+.project li{
+	margin: 10px 30px 5px 15px;
+	font-size: 18px;
+	line-height: 25px;
 }
 
 div.project{
     //display: inline;
     background: rgb(0, 165, 166);
     padding: 15px;
-    margin: 0 15px 4px 0;
+    margin: 0 auto;
     vertical-align: middle;
     border-radius: 10px;
     width: 800px;
 }
 
-.project .project-title{
+div.project-title{
     padding: 10px 5px;
     border-bottom: 1px solid white;
 }
