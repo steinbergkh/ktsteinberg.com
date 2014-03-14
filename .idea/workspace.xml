@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ae9c2dd-cf17-43c7-9126-4cd772520b5b" name="Default" comment="" />
+    <list default="true" id="9ae9c2dd-cf17-43c7-9126-4cd772520b5b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/parallax/skydive-blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/parallax/skydive-red.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="personal-website.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,19 +78,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="contact.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="25" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1440">
+            <state line="80" column="8" selection-start="4187" selection-end="4187" vertical-scroll-proportion="0.46268657" vertical-offset="1045" max-vertical-offset="1455">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project2.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="project2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/eecs370/project2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="0" selection-start="12072" selection-end="12072" vertical-scroll-proportion="0.4358209" vertical-offset="2629" max-vertical-offset="7350">
+            <state line="189" column="8" selection-start="12649" selection-end="12649" vertical-scroll-proportion="-8.583333" vertical-offset="2629" max-vertical-offset="7350">
               <folding>
                 <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -116,7 +121,7 @@
       <file leaf-file-name="skydiving.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skydiving.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="59" selection-start="2660" selection-end="2660" vertical-scroll-proportion="-3.125" vertical-offset="645" max-vertical-offset="1455">
+            <state line="47" column="15" selection-start="2540" selection-end="2601" vertical-scroll-proportion="-2.5" vertical-offset="645" max-vertical-offset="1455">
               <folding />
             </state>
           </provider>
@@ -162,6 +167,7 @@
         <option value="$PROJECT_DIR$/guides.html" />
         <option value="$PROJECT_DIR$/resources.html" />
         <option value="$PROJECT_DIR$/resources/eecs370/project2.html" />
+        <option value="$PROJECT_DIR$/contact.html" />
       </list>
     </option>
   </component>
@@ -246,6 +252,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="personal-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="personal-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -281,6 +301,9 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/parallax" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/eecs370" />
     </key>
@@ -543,7 +566,7 @@
       <workItem from="1392947001355" duration="31000" />
       <workItem from="1392947720771" duration="4993000" />
       <workItem from="1394762090250" duration="652000" />
-      <workItem from="1394763654644" duration="5149000" />
+      <workItem from="1394763654644" duration="5867000" />
     </task>
     <task id="LOCAL-00001" summary="new resume&#10;">
       <created>1392936179651</created>
@@ -569,7 +592,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13064000" />
+    <option name="totallyTimeSpent" value="13782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="207" y="22" width="1073" height="733" extended-state="6" />
@@ -751,13 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="379" selection-end="379" vertical-scroll-proportion="-18.359375" vertical-offset="7245" max-vertical-offset="106200" />
@@ -786,13 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skydiving.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="59" selection-start="2660" selection-end="2660" vertical-scroll-proportion="-3.125" vertical-offset="645" max-vertical-offset="1455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="0" selection-start="3575" selection-end="3575" vertical-scroll-proportion="-8.125" vertical-offset="855" max-vertical-offset="1470">
@@ -802,10 +811,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/eecs370/project2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="0" selection-start="12072" selection-end="12072" vertical-scroll-proportion="0.4358209" vertical-offset="2629" max-vertical-offset="7350">
+        <state line="189" column="8" selection-start="12649" selection-end="12649" vertical-scroll-proportion="-8.583333" vertical-offset="2629" max-vertical-offset="7350">
           <folding>
             <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skydiving.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="15" selection-start="2540" selection-end="2601" vertical-scroll-proportion="-2.5" vertical-offset="645" max-vertical-offset="1455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="8" selection-start="4187" selection-end="4187" vertical-scroll-proportion="0.46268657" vertical-offset="1045" max-vertical-offset="1455">
+          <folding />
         </state>
       </provider>
     </entry>
