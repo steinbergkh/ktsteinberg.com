@@ -512,6 +512,10 @@ body {
     display:block
 }
 
+div#eecs370p2{
+    color: #232323;
+}
+
 input, button, select, textarea {
     font-family: inherit;
     font-size: inherit;
