@@ -182,26 +182,26 @@ r7  return address
 
 <p>Your job is to break down each of these steps and design a finite-state machine that shows all data transfers of each instruction.</p>
 
-<ol><li>You will use C to describe the finite-state machine.  Start with the code included below and add the part of the simulator that executes instructions (the "run" function in the Project 1 solution).</li>
+<p>You will use C to describe the finite-state machine.  Start with the code included below and add the part of the simulator that executes instructions (the "run" function in the Project 1 solution).</p>
 
-    <li>C makes it easy to dramatically expand the size of your finite state machine by using variables to implicitly create new states.  Therefore, we will place strict limits on how you will describe your finite-state machine in C. This will only apply for the part of the program that executes instructions (e.g., not for the code that loads the program). The code that executes instructions must obey the following rules:</li>
+<p>C makes it easy to dramatically expand the size of your finite state machine by using variables to implicitly create new states.  Therefore, we will place strict limits on how you will describe your finite-state machine in C. This will only apply for the part of the program that executes instructions (e.g., not for the code that loads the program). The code that executes instructions must obey the following rules:</p>
 
-    <li>Only use <code>if...else-if...else goto</code> for conditional execution (you may not use for, while, do, case, ?:). For example:</li>
-
+<ol><br><li>Only use <code>if...else-if...else goto</code> for conditional execution (you may not use for, while, do, case, ?:). For example:
+    <br>
 <pre>
 if ((instrReg>>22) == ADD) {
     goto add;
 }
 </pre>
+</li>
+    <br><li>The only code inside the body of if and else statement should be a goto (and possibly debugging printfs).</li>
 
-    <li>The only code inside the body of if and else statement should be a goto (and possibly debugging printfs).</li>
+    <br><li><strong>HINT:</strong> the finite-state machine should only have three types of if statements. One is for the instruction decode (the next state depends on the instruction); the second is to test if memory is ready (see Section 6); the third is for the branch instruction.</li>
 
-    <li><strong>HINT:</strong> the finite-state machine should only have three types of if statements. One is for the instruction decode (the next state depends on the instruction); the second is to test if memory is ready (see Section 6); the third is for the branch instruction.</li>
+    <br><li>The goto represents the next-state function, hence there should be no code in a state after a goto section.</li>
 
-    <li>The goto represents the next-state function, hence there should be no code in a state after a goto section.</li>
-
-    <li>Every distinct state in the finite-state machine should have a label before the C statements in that state (and there should be no extra labels).  Since you can execute several different operations in a single cycle (i.e., a single state in the finite-state machine), not every line of C code will have a label.  For instance, to load the memoryAddress register from the programCounter (as part of the instruction fetch), your code would be:</li>
-
+    <br><li>Every distinct state in the finite-state machine should have a label before the C statements in that state (and there should be no extra labels).  Since you can execute several different operations in a single cycle (i.e., a single state in the finite-state machine), not every line of C code will have a label.  For instance, to load the memoryAddress register from the programCounter (as part of the instruction fetch), your code would be:</li>
+    <br>
 <pre>
 fetch:
     printState(&state, "fetch");
