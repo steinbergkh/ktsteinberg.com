@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ae9c2dd-cf17-43c7-9126-4cd772520b5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/parallax/skydive-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/parallax/skydive-red.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -81,7 +79,7 @@
       <file leaf-file-name="contact.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="8" selection-start="4187" selection-end="4187" vertical-scroll-proportion="0.46268657" vertical-offset="1045" max-vertical-offset="1455">
+            <state line="73" column="61" selection-start="3922" selection-end="3922" vertical-scroll-proportion="0.7761194" vertical-offset="835" max-vertical-offset="1455">
               <folding />
             </state>
           </provider>
@@ -566,7 +564,7 @@
       <workItem from="1392947001355" duration="31000" />
       <workItem from="1392947720771" duration="4993000" />
       <workItem from="1394762090250" duration="652000" />
-      <workItem from="1394763654644" duration="5867000" />
+      <workItem from="1394763654644" duration="5935000" />
     </task>
     <task id="LOCAL-00001" summary="new resume&#10;">
       <created>1392936179651</created>
@@ -588,11 +586,15 @@
       <created>1394774721242</created>
       <updated>1394774721242</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pics and email contact change">
+      <created>1394776702252</created>
+      <updated>1394776702252</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13782000" />
+    <option name="totallyTimeSpent" value="13850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="207" y="22" width="1073" height="733" extended-state="6" />
@@ -648,7 +650,8 @@
     <MESSAGE value="tons o formatting" />
     <MESSAGE value="more formatting" />
     <MESSAGE value="list included things that it shouldn't have" />
-    <option name="LAST_COMMIT_MESSAGE" value="list included things that it shouldn't have" />
+    <MESSAGE value="pics and email contact change" />
+    <option name="LAST_COMMIT_MESSAGE" value="pics and email contact change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -827,7 +830,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="8" selection-start="4187" selection-end="4187" vertical-scroll-proportion="0.46268657" vertical-offset="1045" max-vertical-offset="1455">
+        <state line="73" column="61" selection-start="3922" selection-end="3922" vertical-scroll-proportion="0.7761194" vertical-offset="835" max-vertical-offset="1455">
           <folding />
         </state>
       </provider>
