@@ -88,7 +88,7 @@
       <file leaf-file-name="eecs370p2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guides/eecs370p2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="36" selection-start="3081" selection-end="3090" vertical-scroll-proportion="-3.34" vertical-offset="733" max-vertical-offset="7335">
+            <state line="146" column="31" selection-start="8242" selection-end="8242" vertical-scroll-proportion="-4.625" vertical-offset="2079" max-vertical-offset="7335">
               <folding>
                 <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -99,7 +99,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="513" column="0" selection-start="8318" selection-end="8318" vertical-scroll-proportion="0.64325845" vertical-offset="7466" max-vertical-offset="102660">
+            <state line="933" column="23" selection-start="14812" selection-end="14812" vertical-scroll-proportion="0.85393256" vertical-offset="13691" max-vertical-offset="102675">
               <folding />
             </state>
           </provider>
@@ -502,7 +502,7 @@
       <workItem from="1392947001355" duration="31000" />
       <workItem from="1392947720771" duration="4993000" />
       <workItem from="1394762090250" duration="652000" />
-      <workItem from="1394763654644" duration="3144000" />
+      <workItem from="1394763654644" duration="3513000" />
     </task>
     <task id="LOCAL-00001" summary="new resume&#10;">
       <created>1392936179651</created>
@@ -520,7 +520,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11059000" />
+    <option name="totallyTimeSpent" value="11428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="314" y="22" width="966" height="733" extended-state="6" />
@@ -578,6 +578,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/contact-email.html">
@@ -715,7 +719,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/guides/eecs370p2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="36" selection-start="3081" selection-end="3090" vertical-scroll-proportion="-3.34" vertical-offset="733" max-vertical-offset="7335">
+        <state line="146" column="31" selection-start="8242" selection-end="8242" vertical-scroll-proportion="-4.625" vertical-offset="2079" max-vertical-offset="7335">
           <folding>
             <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -724,7 +728,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="513" column="0" selection-start="8318" selection-end="8318" vertical-scroll-proportion="0.64325845" vertical-offset="7466" max-vertical-offset="102660">
+        <state line="933" column="23" selection-start="14812" selection-end="14812" vertical-scroll-proportion="0.85393256" vertical-offset="13691" max-vertical-offset="102675">
           <folding />
         </state>
       </provider>
