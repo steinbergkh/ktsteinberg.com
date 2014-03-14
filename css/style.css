@@ -915,8 +915,8 @@ code {
 }
 
 pre {
-    display: block;
-    padding: 10px;
+    display: inline-block;
+    padding: 15px;
     margin: 0 0 10.5px;
     font-size: 14px;
     line-height: 1.428571429;
