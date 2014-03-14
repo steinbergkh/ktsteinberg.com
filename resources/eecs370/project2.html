@@ -160,7 +160,7 @@ r7  return address
 
 <p>Anyone who can beat a cycle count of <i>less than 110,000</i> for C(14,7) will receive 5 bonus points to the project.  Please note the competition will test more than just C(14,7), this bar is just to encourage you to attempt this efficient solution.</p>
 
-<p>The final date of submission for the competition is Mar 18.  Note that this is after the project is due.  Please submit to 2z instead of 2c or 2s.</p>
+<p>The final date of submission for the competition is <ul>Mar 18</ul>.  Note that this is after the project is due.  Please submit to 2z instead of 2c or 2s.</p>
 
 <h2 id="registers">LC-2K Register Level</h2>
 
@@ -209,19 +209,19 @@ fetch:
     memoryAddress = bus;
 </pre>
 
-    <li>You may only transfer data where there is a connection shown on the register diagram.  That&#39;s why the example above transfers the programCounter data to the memoryAddress register via the system bus.  There is no connection between memoryAddress and programCounter, so you may not say memoryAddress = programCounter directly.  This will help you to see what can and can&#39;t be donein a single cycle (e.g., you can&#39;t drive the system bus with two different values, but you can load multiple registers from the system bus).</li>
+    <br><li>You may only transfer data where there is a connection shown on the register diagram.  That&#39;s why the example above transfers the programCounter data to the memoryAddress register via the system bus.  There is no connection between memoryAddress and programCounter, so you may not say memoryAddress = programCounter directly.  This will help you to see what can and can&#39;t be donein a single cycle (e.g., you can&#39;t drive the system bus with two different values, but you can load multiple registers from the system bus).</li>
 
-    <li>You can&#39;t use the new value of a register until the cycle after you write it. For example, if cycle 1 is "A=B", then you can&#39;t use the new value of A until cycle 2. This is because A doesn&#39;t actually get written until the end of cycle 1/beginning of cycle 2.  In particular, remember that the control unit reads instrReg and aluResult, which are registers.  An "exception" to this rule is the return value of memoryAccess (see Section 6). In one cycle, you may call memoryAccess and then test the return value of memoryAccess to decide which state to go to next.  The reason for this "exception" is that the return value of memoryAccess is a signal, not the output of a register.</li>
+    <br><li>You can&#39;t use the new value of a register until the cycle after you write it. For example, if cycle 1 is "A=B", then you can&#39;t use the new value of A until cycle 2. This is because A doesn&#39;t actually get written until the end of cycle 1/beginning of cycle 2.  In particular, remember that the control unit reads instrReg and aluResult, which are registers.  An "exception" to this rule is the return value of memoryAccess (see Section 6). In one cycle, you may call memoryAccess and then test the return value of memoryAccess to decide which state to go to next.  The reason for this "exception" is that the return value of memoryAccess is a signal, not the output of a register.</li>
 
-    <li>The only functions you may use are printf, memoryAccess, convertNum, and printState.</li>
+    <br><li>The only functions you may use are printf, memoryAccess, convertNum, and printState.</li>
 
-    <li>The only variables you may use are 1] the variables specified in the state structure, 2] a variable to hold the return value of memoryAccess, and 3] the value of the system bus.</li>
+    <br><li>The only variables you may use are 1] the variables specified in the state structure, 2] a variable to hold the return value of memoryAccess, and 3] the value of the system bus.</li>
 
-    <li>You may use the normal arithmetic operations (+, -, *, /, %) as well as the bit operations in C (& |, << >> ~).</li>
+    <br><li>You may use the normal arithmetic operations (+, -, *, /, %) as well as the bit operations in C (& |, << >> ~).</li>
 
-    <li>You may use printfs wherever you want.</li>
+    <br><li>You may use printfs wherever you want.</li>
 
-    <li>You must assume that at the end of any given instruction every register other than the programCounter and the register file could be reset.  This could happen if an interrupt were to occur.  In that case only the architecturally visible things (program counter and register file) would be reset to their proper values.  In other words, you may NOT start executing an instruction before the previous instruction finished.  This includes taking advantage of the next instruction&#39;s address being available on the bus at the end of the previous instruction.  You may not work on two different instructions in the same clock.</li></ol>
+    <br><li>You must assume that at the end of any given instruction every register other than the programCounter and the register file could be reset.  This could happen if an interrupt were to occur.  In that case only the architecturally visible things (program counter and register file) would be reset to their proper values.  In other words, you may NOT start executing an instruction before the previous instruction finished.  This includes taking advantage of the next instruction&#39;s address being available on the bus at the end of the previous instruction.  You may not work on two different instructions in the same clock.</li></ol>
 
 <p>Given the above limitations, you must execute your program executing as few states as possible.  In other words, you must call printState() as few times as possible.</p>
 
@@ -263,11 +263,11 @@ fetch:
 
 <p>Because all programs will be auto-graded, you must be careful to follow the exact formatting rules in the project description:</p>
 
-<h3 id="grading-combination">COMBINATION</h3>
+<h3 id="grading-combination">Combination</h3>
 <p>Store the result in register 3.</p>
 <p>The two input numbers must be in locations labeled "n" and "r" (lower-case).  Your submitted combination program can use any values for n and r.</p>
 
-<h3 id="grading-simulator">SIMULATOR</h3>
+<h3 id="grading-simulator">Simulator</h3>
 <p>Don&#39;t modify printState or stateStruct at all.  Download this handout into your program electronically (don&#39;t re-type it) so you avoid typos.</p>
 
 <p>Call printState once before each state executes and once just before the simulator exits.  Do not call printState at any other time.</p>
