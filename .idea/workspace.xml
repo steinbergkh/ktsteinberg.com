@@ -1,56 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ae9c2dd-cf17-43c7-9126-4cd772520b5b" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/404.html" afterPath="$PROJECT_DIR$/parallax/404.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/CHANGELOG.md" afterPath="$PROJECT_DIR$/parallax/CHANGELOG.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/parallax/CONTRIBUTING.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/LICENSE.md" afterPath="$PROJECT_DIR$/parallax/LICENSE.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/README.md" afterPath="$PROJECT_DIR$/parallax/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/apple-touch-icon-114x114-precomposed.png" afterPath="$PROJECT_DIR$/parallax/apple-touch-icon-114x114-precomposed.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/apple-touch-icon-144x144-precomposed.png" afterPath="$PROJECT_DIR$/parallax/apple-touch-icon-144x144-precomposed.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/apple-touch-icon-57x57-precomposed.png" afterPath="$PROJECT_DIR$/parallax/apple-touch-icon-57x57-precomposed.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/apple-touch-icon-72x72-precomposed.png" afterPath="$PROJECT_DIR$/parallax/apple-touch-icon-72x72-precomposed.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/apple-touch-icon-precomposed.png" afterPath="$PROJECT_DIR$/parallax/apple-touch-icon-precomposed.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/apple-touch-icon.png" afterPath="$PROJECT_DIR$/parallax/apple-touch-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/crossdomain.xml" afterPath="$PROJECT_DIR$/parallax/crossdomain.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/parallax/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/css/main.css" afterPath="$PROJECT_DIR$/parallax/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/css/normalize.css" afterPath="$PROJECT_DIR$/parallax/css/normalize.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/css/style.css" afterPath="$PROJECT_DIR$/parallax/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/doc/TOC.md" afterPath="$PROJECT_DIR$/parallax/doc/TOC.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/doc/crossdomain.md" afterPath="$PROJECT_DIR$/parallax/doc/crossdomain.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/doc/css.md" afterPath="$PROJECT_DIR$/parallax/doc/css.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/doc/extend.md" afterPath="$PROJECT_DIR$/parallax/doc/extend.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/doc/faq.md" afterPath="$PROJECT_DIR$/parallax/doc/faq.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/doc/html.md" afterPath="$PROJECT_DIR$/parallax/doc/html.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/doc/js.md" afterPath="$PROJECT_DIR$/parallax/doc/js.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/doc/misc.md" afterPath="$PROJECT_DIR$/parallax/doc/misc.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/doc/usage.md" afterPath="$PROJECT_DIR$/parallax/doc/usage.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/favicon.ico" afterPath="$PROJECT_DIR$/parallax/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/humans.txt" afterPath="$PROJECT_DIR$/parallax/humans.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/img/bcg_slide-1.jpg" afterPath="$PROJECT_DIR$/parallax/img/bcg_slide-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/img/bcg_slide-2.jpg" afterPath="$PROJECT_DIR$/parallax/img/bcg_slide-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/img/bcg_slide-3.jpg" afterPath="$PROJECT_DIR$/parallax/img/bcg_slide-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/img/bcg_slide-4.jpg" afterPath="$PROJECT_DIR$/parallax/img/bcg_slide-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/img/horizon-2.png" afterPath="$PROJECT_DIR$/parallax/img/horizon-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/img/horizon-3.jpg" afterPath="$PROJECT_DIR$/parallax/img/horizon-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/img/horizon-plane-2.png" afterPath="$PROJECT_DIR$/parallax/img/horizon-plane-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/img/horizon-plane.png" afterPath="$PROJECT_DIR$/parallax/img/horizon-plane.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/img/horizon.png" afterPath="$PROJECT_DIR$/parallax/img/horizon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/img/ico_loading.gif" afterPath="$PROJECT_DIR$/parallax/img/ico_loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/img/skydive-backfly.png" afterPath="$PROJECT_DIR$/parallax/img/skydive-backfly.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/img/skydive-blue-2.png" afterPath="$PROJECT_DIR$/parallax/img/skydive-blue-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/img/skydive-blue.png" afterPath="$PROJECT_DIR$/parallax/img/skydive-blue.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/img/skydive-red.png" afterPath="$PROJECT_DIR$/parallax/img/skydive-red.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/index.html" afterPath="$PROJECT_DIR$/parallax/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/js/_main.js" afterPath="$PROJECT_DIR$/parallax/js/_main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/js/imagesloaded.js" afterPath="$PROJECT_DIR$/parallax/js/imagesloaded.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/js/skrollr.js" afterPath="$PROJECT_DIR$/parallax/js/skrollr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/js/vendor/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/parallax/js/vendor/jquery-1.9.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/js/vendor/modernizr-2.7.1.min.js" afterPath="$PROJECT_DIR$/parallax/js/vendor/modernizr-2.7.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/parallax/robots.txt" afterPath="$PROJECT_DIR$/parallax/robots.txt" />
-    </list>
+    <list default="true" id="9ae9c2dd-cf17-43c7-9126-4cd772520b5b" name="Default" comment="parallax&#10;" />
     <ignored path="personal-website.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -152,7 +103,7 @@
       <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="42" selection-start="2535" selection-end="2535" vertical-scroll-proportion="0.67164177" vertical-offset="465" max-vertical-offset="1260">
+            <state line="44" column="36" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.58208954" vertical-offset="465" max-vertical-offset="1260">
               <folding />
             </state>
           </provider>
@@ -595,7 +546,7 @@
       <workItem from="1392947720771" duration="4993000" />
       <workItem from="1394762090250" duration="652000" />
       <workItem from="1394763654644" duration="6780000" />
-      <workItem from="1394925806738" duration="1259000" />
+      <workItem from="1394925806738" duration="5100000" />
     </task>
     <task id="LOCAL-00001" summary="new resume&#10;">
       <created>1392936179651</created>
@@ -625,7 +576,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15954000" />
+    <option name="totallyTimeSpent" value="19795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="207" y="22" width="1073" height="733" extended-state="0" />
@@ -641,7 +592,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26479146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26479146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -911,7 +862,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="42" selection-start="2535" selection-end="2535" vertical-scroll-proportion="0.67164177" vertical-offset="465" max-vertical-offset="1260">
+        <state line="44" column="36" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.58208954" vertical-offset="465" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
