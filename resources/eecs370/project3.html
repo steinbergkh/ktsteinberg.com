@@ -74,13 +74,10 @@ Due: 6:00 pm, Friday, March 28, 2014</small>
 </h3>
 <p>The shared-bus style of Project 2&#39;s LC-2K implementation is not suitable for pipelining, because it is difficult for more than one instruction to use the bus at the same time.  For this project we will use the datapath from Lecture 12, "Introduction to Pipelining."
 </p>
-<p>One difference between Project 3 and the pipelined processor described in lecture is that we will add a pipeline register after the write-back stage (the WBEND pipeline register).  This will be used to simplify data forwarding so that the register file does not have to do any internal forwarding. It will also mean that 3 noops will be required to avoid hazards instead of the 2
-</p>needed as discussed in class.
+<p>One difference between Project 3 and the pipelined processor described in lecture is that we will add a pipeline register after the write-back stage (the WBEND pipeline register).  This will be used to simplify data forwarding so that the register file does not have to do any internal forwarding. It will also mean that 3 noops will be required to avoid hazards instead of the 2 needed as discussed in class.</p>
 
-<p>You will use a clocking scheme mimicking real-life processors (e.g., register file and memory writes require the data to be present for the whole cycle).
-</p>
-<h3 id="jalr">jalr
-</h3>
+<p>You will use a clocking scheme mimicking real-life processors (e.g., register file and memory writes require the data to be present for the whole cycle).</p>
+<h3 id="jalr">jalr</h3>
 <p>You will not implement the jalr instruction from the LC-2K.  Taking out jalr eliminates several dependencies.
 </p>
 <h3 id="memory">Memory
