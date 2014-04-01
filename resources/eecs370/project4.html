@@ -180,13 +180,13 @@ void store(int addr, int data); // Properly simulates the cache for a store
 
 <p>Here is a sample assembly-language program:
 </p><pre>
-        sw      0       1       6
-        lw      0       1       23
-        lw      0       1       30
-        halt
+sw      0       1       6
+lw      0       1       23
+lw      0       1       30
+halt
 </pre>
 <p>and its corresponding output with the following cache parameters:
-</p><pre>    blockSizeInWords = 4, numberOfSets = 2, and blocksPerSet = 1</pre>
+</p><pre>blockSizeInWords = 4, numberOfSets = 2, and blocksPerSet = 1</pre>
 
 <p>Make sure you understand each of the data transfers and their order.
 </p><pre>
