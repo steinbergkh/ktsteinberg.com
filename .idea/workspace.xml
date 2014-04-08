@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ae9c2dd-cf17-43c7-9126-4cd772520b5b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/eecs370/cache-notes.html" afterPath="$PROJECT_DIR$/resources/eecs370/cache-notes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/eecs370/lc2k-instructions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="personal-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,7 +90,7 @@
       <file leaf-file-name="cache-notes.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/eecs370/cache-notes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="51" selection-start="4790" selection-end="4790" vertical-scroll-proportion="0.48181817" vertical-offset="1160" max-vertical-offset="2400">
+            <state line="93" column="5" selection-start="0" selection-end="6990" vertical-scroll-proportion="0.42727274" vertical-offset="1160" max-vertical-offset="2400">
               <folding>
                 <element signature="n#style#0;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#dt#0;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -102,6 +103,15 @@
                 <element signature="n#style#0;n#dd#2;n#dl#0;n#dd#1;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#dd#3;n#dl#0;n#dd#1;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lc2k-instructions.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/eecs370/lc2k-instructions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="0" selection-start="3255" selection-end="3255" vertical-scroll-proportion="-0.0" vertical-offset="870" max-vertical-offset="2190">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,6 +152,7 @@
         <option value="$PROJECT_DIR$/resources/eecs370/project4.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/resources/eecs370/cache-notes.html" />
+        <option value="$PROJECT_DIR$/resources/eecs370/lc2k-instructions.html" />
       </list>
     </option>
   </component>
@@ -532,7 +543,7 @@
       <workItem from="1395843038972" duration="342000" />
       <workItem from="1396978569800" duration="28000" />
       <workItem from="1396978618352" duration="243000" />
-      <workItem from="1396979289637" duration="3700000" />
+      <workItem from="1396979289637" duration="4289000" />
     </task>
     <task id="LOCAL-00001" summary="new resume&#10;">
       <created>1392936179651</created>
@@ -566,7 +577,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24108000" />
+    <option name="totallyTimeSpent" value="24697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="733" extended-state="6" />
@@ -634,13 +645,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/eecs370/project2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="8" selection-start="12649" selection-end="12649" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="1" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="102675">
@@ -982,9 +986,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/eecs370/lc2k-instructions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="3255" selection-end="3255" vertical-scroll-proportion="-0.0" vertical-offset="870" max-vertical-offset="2190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/eecs370/cache-notes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="51" selection-start="4790" selection-end="4790" vertical-scroll-proportion="0.48181817" vertical-offset="1160" max-vertical-offset="2400">
+        <state line="93" column="5" selection-start="0" selection-end="6990" vertical-scroll-proportion="0.42727274" vertical-offset="1160" max-vertical-offset="2400">
           <folding>
             <element signature="n#style#0;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#dt#0;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
