@@ -74,7 +74,7 @@ font-size: 24px;">
         </thead>
         <tbody>
             <tr>
-                <td style="background-color: lightgray; text-align: center; vertical-align: center; font-size: 20px;" rowspan="2"><b>R-type format</b></td>
+                <td style="background-color: lightgray; text-align: center; vertical-align: middle; font-size: 20px;" rowspan="2"><b>R-type format</b></td>
                 <td>add</td>
                 <td>000</td>
                 <td>destReg = regA + regB</td>
@@ -85,7 +85,7 @@ font-size: 24px;">
                 <td>destReg = !(regA &amp; regB) OR  ~(regA &amp; regB) (bitwise NOT)</td>
             </tr>
             <tr>
-                <td style="background-color: lightgray; text-align: center; vertical-align: center; font-size: 20px;" rowspan="3"><b>I-type format</b></td>
+                <td style="background-color: lightgray; text-align: center; vertical-align: middle; font-size: 20px;" rowspan="3"><b>I-type format</b></td>
                 <td>lw</td>
                 <td>010</td>
                 <td>regB = MEM[regA + OFFSET]</td>
@@ -101,13 +101,13 @@ font-size: 24px;">
                 <td>if(regA == regB)  PC = PC + 1 + OFFSET</td>
             </tr>
             <tr>
-                <td style="background-color: lightgray; text-align: center; vertical-align: center; font-size: 20px;"><b>J-type format</b></td>
+                <td style="background-color: lightgray; text-align: center; vertical-align: middle; font-size: 20px;"><b>J-type format</b></td>
                 <td>jalr</td>
                 <td>101</td>
                 <td>regB = PC + 1;  PC = regA</td>
             </tr>
             <tr>
-                <td style="background-color: lightgray; text-align: center; vertical-align: center; font-size: 20px;" rowspan="2"><b>O-type format</b></td>
+                <td style="background-color: lightgray; text-align: center; vertical-align: middle; font-size: 20px;" rowspan="2"><b>O-type format</b></td>
                 <td>halt</td>
                 <td>110</td>
                 <td>Increment the PC then halt the machine</td>
