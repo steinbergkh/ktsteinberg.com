@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ae9c2dd-cf17-43c7-9126-4cd772520b5b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/eecs370/cache-notes.html" afterPath="$PROJECT_DIR$/resources/eecs370/cache-notes.html" />
     </list>
     <ignored path="personal-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,22 +86,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cache-notes.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="cache-notes.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/eecs370/cache-notes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="0" selection-start="6006" selection-end="6006" vertical-scroll-proportion="-7.2916665" vertical-offset="1715" max-vertical-offset="2400">
+            <state line="101" column="31" selection-start="5132" selection-end="5132" vertical-scroll-proportion="0.6454545" vertical-offset="1160" max-vertical-offset="2400">
               <folding>
                 <element signature="n#style#0;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dd#0;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dd#1;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#dl#0;n#dd#1;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="806" column="18" selection-start="12507" selection-end="12507" vertical-scroll-proportion="0.78397214" vertical-offset="11640" max-vertical-offset="102945">
+            <state line="798" column="21" selection-start="12346" selection-end="12346" vertical-scroll-proportion="0.0" vertical-offset="11640" max-vertical-offset="102945">
               <folding />
             </state>
           </provider>
@@ -132,8 +135,8 @@
         <option value="$PROJECT_DIR$/resources.html" />
         <option value="$PROJECT_DIR$/default.html" />
         <option value="$PROJECT_DIR$/resources/eecs370/project4.html" />
-        <option value="$PROJECT_DIR$/resources/eecs370/cache-notes.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/eecs370/cache-notes.html" />
       </list>
     </option>
   </component>
@@ -524,7 +527,7 @@
       <workItem from="1395843038972" duration="342000" />
       <workItem from="1396978569800" duration="28000" />
       <workItem from="1396978618352" duration="243000" />
-      <workItem from="1396979289637" duration="3500000" />
+      <workItem from="1396979289637" duration="3604000" />
     </task>
     <task id="LOCAL-00001" summary="new resume&#10;">
       <created>1392936179651</created>
@@ -558,7 +561,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23908000" />
+    <option name="totallyTimeSpent" value="24012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="733" extended-state="6" />
@@ -967,20 +970,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/eecs370/cache-notes.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="0" selection-start="6006" selection-end="6006" vertical-scroll-proportion="-7.2916665" vertical-offset="1715" max-vertical-offset="2400">
-          <folding>
-            <element signature="n#style#0;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#dd#1;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="798" column="21" selection-start="12346" selection-end="12346" vertical-scroll-proportion="0.0" vertical-offset="11640" max-vertical-offset="102945">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/resources/eecs370/cache-notes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="806" column="18" selection-start="12507" selection-end="12507" vertical-scroll-proportion="0.78397214" vertical-offset="11640" max-vertical-offset="102945">
-          <folding />
+        <state line="101" column="31" selection-start="5132" selection-end="5132" vertical-scroll-proportion="0.6454545" vertical-offset="1160" max-vertical-offset="2400">
+          <folding>
+            <element signature="n#style#0;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dd#0;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dd#1;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#dd#1;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
