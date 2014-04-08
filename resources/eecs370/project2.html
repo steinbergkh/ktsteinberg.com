@@ -46,20 +46,23 @@
             <li><a href="/KatieSteinbergResume.pdf">Resume</a></li>
             <li><a href="/projects.html">Projects</a></li>
             <li class="dropdown active">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Resources <b class="caret"></b></a>
-                <ul class="dropdown-menu" id="menu1">
-                    <li class="dropdown-submenu">
-                        <a href="/resources.html">EECS 370</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="/resources/eecs370/project2.html">Project 2 Specs</a></li>
-                            <li><a href="/resources/eecs370/project3.html">Project 3 Specs</a></li>
-                            <li><a href="/resources/eecs370/project4.html">Project 4 Specs</a></li>
-                            <li class="divider"></li>
-                            <li><a href="/resources/eecs370/cache-notes.html">Cache notes</a></li>
-                            <li><a href="/resources/eecs370/lc2k-instructions.html">LC2K reference</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                 <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" data-target="#" href="/resources.html">
+                      Resources <span class="caret"></span>
+                 </a>
+                 <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                      <li class="divider"></li>
+                      <li class="dropdown-submenu">
+                           <a tabindex="-1" href="/resources.html#eecs370">EECS 370</a>
+                           <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="/resources/eecs370/project2.html">Project 2 Specs</a></li>
+                                <li><a href="/resources/eecs370/project3.html">Project 3 Specs</a></li>
+                                <li><a href="/resources/eecs370/project4.html">Project 4 Specs</a></li>
+                                <li class="divider"></li>
+                                <li><a href="/resources/eecs370/cache-notes.html">Cache notes</a></li>
+                                <li><a href="/resources/eecs370/lc2k-instructions.html">LC2K reference</a></li>
+                           </ul>
+                      </li>
+                 </ul>
             </li>
             <li><a href="/skydiving.html">Skydiving</a></li>
             <li><a href="/contact.html">Contact</a></li>
