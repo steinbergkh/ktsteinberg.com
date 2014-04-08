@@ -114,10 +114,8 @@
       <file leaf-file-name="project4.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/eecs370/project4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="92" selection-start="4600" selection-end="4600" vertical-scroll-proportion="0.21538462" vertical-offset="1070" max-vertical-offset="4065">
-              <folding>
-                <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="85" column="82" selection-start="4990" selection-end="4990" vertical-scroll-proportion="0.5846154" vertical-offset="1085" max-vertical-offset="3600">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -555,7 +553,7 @@
       <workItem from="1395843038972" duration="342000" />
       <workItem from="1396978569800" duration="28000" />
       <workItem from="1396978618352" duration="243000" />
-      <workItem from="1396979289637" duration="674000" />
+      <workItem from="1396979289637" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="new resume&#10;">
       <created>1392936179651</created>
@@ -589,7 +587,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21082000" />
+    <option name="totallyTimeSpent" value="21375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="733" extended-state="6" />
@@ -1003,10 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/eecs370/project4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="92" selection-start="4600" selection-end="4600" vertical-scroll-proportion="0.21538462" vertical-offset="1070" max-vertical-offset="4065">
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="85" column="82" selection-start="4990" selection-end="4990" vertical-scroll-proportion="0.5846154" vertical-offset="1085" max-vertical-offset="3600">
+          <folding />
         </state>
       </provider>
     </entry>
