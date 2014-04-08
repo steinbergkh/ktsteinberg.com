@@ -60,15 +60,15 @@
 </nav>
 <div class="container resources" id="eecs370p3">
     <h1 id="title">EECS 370 -- Cache Notes</h1>
-<pre>
-Cache size in blocks = Cache Size / (Number of bytes per block)
-Block Offset (BO) bits = log2(# of bytes per block)
-Set Index (SI) bits = log2(Cache size in blocks / Ways per set)
-Tag bits = (Total Address Size) - (Block Offset) - (Set Index).
-</pre>
+    <p>
+<code>Cache size in blocks</code> = <code>Cache Size</code> / <code>Number of bytes per block</code><br>
+<code>Block Offset (BO) bits</code> = log2(<code># of bytes per block</code>)<br>
+<code>Set Index (SI) bits</code> = log2(<code>Cache size in blocks</code> / <code>Ways per set</code>)<br>
+<code>Tag bits</code> = <code>Total Address Size</code> - <code>Block Offset</code> - <code>Set Index</code>
+</p>
 <h2>EXAMPLE</h2>
 
-Example 16-bit address: <code>1101011101001001</code>
+<p>Example 16-bit address: <code>1101011101001001</code></p>
  
 <p>Let's say that you used the equations in the previous section to calculate that you had</p>
 <ul>
@@ -76,7 +76,7 @@ Example 16-bit address: <code>1101011101001001</code>
 <li>4 bits of set index</li>
 <li>3 bits of block offset</li>
 </ul>
-<h4>So now your address looks like this:</h4><br>
+<h4>So now your address looks like this:</h4>
 <dl class="dl-horizontal" style="width: 90%">
 	<dt>Tag</dt>
 		<dd>110101110</dd>
@@ -90,7 +90,7 @@ Example 16-bit address: <code>1101011101001001</code>
 <ul>
 <li>set the block offset to 0 (which will give you the beginning of the block)</li>
 <li>then set the block offset to 111 (which will give you the end of the block)</li>
-<li>This means that you'll be grabbing everything between address 1101011101001000 and address 1101011101001111 from memory</li>
+<li>This means that you'll be grabbing everything between address <code>1101011101001000</code> and address <code>1101011101001111</code> from memory</li>
 </ul>
 
 <!-- <dl class="dl-horizontal" style="width: 90%">

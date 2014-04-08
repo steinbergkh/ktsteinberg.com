@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ae9c2dd-cf17-43c7-9126-4cd772520b5b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/eecs370/project4.html" afterPath="$PROJECT_DIR$/resources/eecs370/project4.html" />
-    </list>
+    <list default="true" id="9ae9c2dd-cf17-43c7-9126-4cd772520b5b" name="Default" comment="" />
     <ignored path="personal-website.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,7 +76,7 @@
       <file leaf-file-name="project4.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/eecs370/project4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="17" selection-start="3416" selection-end="3416" vertical-scroll-proportion="0.5603448" vertical-offset="735" max-vertical-offset="3600">
+            <state line="64" column="29" selection-start="3487" selection-end="3487" vertical-scroll-proportion="0.6465517" vertical-offset="735" max-vertical-offset="3600">
               <folding>
                 <element signature="n#style#0;n#dl#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -502,7 +500,7 @@
       <workItem from="1395843038972" duration="342000" />
       <workItem from="1396978569800" duration="28000" />
       <workItem from="1396978618352" duration="243000" />
-      <workItem from="1396979289637" duration="1966000" />
+      <workItem from="1396979289637" duration="2129000" />
     </task>
     <task id="LOCAL-00001" summary="new resume&#10;">
       <created>1392936179651</created>
@@ -536,7 +534,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22374000" />
+    <option name="totallyTimeSpent" value="22537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="733" extended-state="6" />
@@ -952,7 +950,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/eecs370/project4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="17" selection-start="3416" selection-end="3416" vertical-scroll-proportion="0.5603448" vertical-offset="735" max-vertical-offset="3600">
+        <state line="64" column="29" selection-start="3487" selection-end="3487" vertical-scroll-proportion="0.6465517" vertical-offset="735" max-vertical-offset="3600">
           <folding>
             <element signature="n#style#0;n#dl#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
