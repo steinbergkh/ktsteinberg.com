@@ -59,8 +59,8 @@
     </div><!-- /.navbar-collapse -->
 </nav>
 <div class="container resources" id="eecs370p3">
-    <h1 id="title">EECS 370 -- Cache Notes</h1>
-    <p>
+    <h1 id="title">EECS 370 -- Cache Notes</h1><br><br>
+    <h3>Helpful Equations</h3><p>
 <b>Cache size in blocks</b> = <b>Cache Size</b> / <b>Number of bytes per block</b><br><br>
 <b>Block Offset (BO) bits</b> = log2(<b># of bytes per block</b>)<br><br>
 <b>Set Index (SI) bits</b> = log2(<b>Cache size in blocks</b> / <b>Ways per set</b>)<br><br>
@@ -92,7 +92,7 @@
     <li>then set the block offset to 111 (which will give you the end of the block)</li>
     <li>This means that you'll be grabbing everything between address <code>1101 0111 0100 1000</code> and address <code>1101 0111 0100 1111</code> from memory</li>
 </ul>
-<dl class="dl-horizontal" style="width: 90%">
+<dl class="dl-horizontal long-title" style="width: 90%">
     <dt>Fully Associative</dt>
         <dd>is just N-Way Set Associative where N is the cache size in blocks</dd>
         <dd>
@@ -105,6 +105,23 @@
             </dl>
         </dd>
 </dl>
+
+
+<h3>Modulus Trick</h3>
+    <p>Let's assume the same example, and say that our <b>last 3 bits are block offset</b>, and the <b>4 bits following those are my set index bits</b>. </p>
+
+    <p>This means that I have:</p>
+    <ul><li>2^3 = 8 bytes per block</li>
+        <li>2^4 = 16 sets in total</li></ul>
+<p>So, I can just use <code>(Address % 8)</code> to figure out my block offset at anytime.</p>
+
+    <p>For example, let's assume that instead of <code>1101011101001001</code> (the address in the example from above),
+    I had given you the same address in decimal form: <code>55113</code>. Now the Block Offset is only one modulus operation away:</p>
+<pre>
+    Block Offset = 55113 % 8 = 1
+</pre>
+    <p>In general, your <code>block offset = (Address % Block Size) </code>.</p>
+
 
 <!-- <dl class="dl-horizontal" style="width: 90%">
 	<dt></dt>
