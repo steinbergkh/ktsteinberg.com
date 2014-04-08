@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ae9c2dd-cf17-43c7-9126-4cd772520b5b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/default.html" afterPath="$PROJECT_DIR$/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parallax/index.html" afterPath="$PROJECT_DIR$/parallax/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/eecs370/project2.html" afterPath="$PROJECT_DIR$/resources/eecs370/project2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/eecs370/project3.html" afterPath="$PROJECT_DIR$/resources/eecs370/project3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/eecs370/project4.html" afterPath="$PROJECT_DIR$/resources/eecs370/project4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects.html" afterPath="$PROJECT_DIR$/projects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.html" afterPath="$PROJECT_DIR$/resources.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skydiving.html" afterPath="$PROJECT_DIR$/skydiving.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/steinbergkh.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/steinbergkh.xml" />
     </list>
     <ignored path="personal-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,11 +66,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="99" selection-start="408" selection-end="408" vertical-scroll-proportion="0.30172414" vertical-offset="0" max-vertical-offset="1260">
+            <state line="5" column="29" selection-start="160" selection-end="160" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1260">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project4.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/eecs370/project4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="17" selection-start="3416" selection-end="3416" vertical-scroll-proportion="0.5603448" vertical-offset="735" max-vertical-offset="3600">
+              <folding>
+                <element signature="n#style#0;n#dl#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,10 +108,10 @@
         <option value="$PROJECT_DIR$/skydiving.html" />
         <option value="$PROJECT_DIR$/resources/eecs370/project2.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/resources/eecs370/project4.html" />
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/resources.html" />
         <option value="$PROJECT_DIR$/default.html" />
+        <option value="$PROJECT_DIR$/resources/eecs370/project4.html" />
       </list>
     </option>
   </component>
@@ -500,7 +502,7 @@
       <workItem from="1395843038972" duration="342000" />
       <workItem from="1396978569800" duration="28000" />
       <workItem from="1396978618352" duration="243000" />
-      <workItem from="1396979289637" duration="1668000" />
+      <workItem from="1396979289637" duration="1966000" />
     </task>
     <task id="LOCAL-00001" summary="new resume&#10;">
       <created>1392936179651</created>
@@ -534,7 +536,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22076000" />
+    <option name="totallyTimeSpent" value="22374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="733" extended-state="6" />
@@ -920,15 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/eecs370/project4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="99" selection-start="436" selection-end="436" vertical-scroll-proportion="0.30172414" vertical-offset="0" max-vertical-offset="3600">
-          <folding>
-            <element signature="n#style#0;n#dl#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="99" selection-start="412" selection-end="412" vertical-scroll-proportion="0.30172414" vertical-offset="0" max-vertical-offset="2100">
@@ -952,8 +945,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="99" selection-start="408" selection-end="408" vertical-scroll-proportion="0.30172414" vertical-offset="0" max-vertical-offset="1260">
+        <state line="5" column="29" selection-start="160" selection-end="160" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1260">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/eecs370/project4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="17" selection-start="3416" selection-end="3416" vertical-scroll-proportion="0.5603448" vertical-offset="735" max-vertical-offset="3600">
+          <folding>
+            <element signature="n#style#0;n#dl#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
