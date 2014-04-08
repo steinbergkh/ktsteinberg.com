@@ -25,6 +25,12 @@
         ga(&#39;send&#39;, &#39;pageview&#39;);
 
     </script>
+    <script>
+        $( ".dropdown" ).click(function(event) {
+            event.preventDefault();
+            $( this ).children(".dropdown-menu").show();
+        });
+    </script>
 </head>
 <body>
 <nav class="navbar navbar-default" role="navigation">
@@ -76,6 +82,7 @@
         </form> -->
     </div><!-- /.navbar-collapse -->
 </nav>
+
 
 <div class="container resources" id="eecs370p2">
 <h1 id="title">Project 2--EECS 370<small></br>
