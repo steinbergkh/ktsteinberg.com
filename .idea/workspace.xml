@@ -70,7 +70,7 @@
       <file leaf-file-name="contact-email.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact-email.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="9" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1170">
+            <state line="32" column="9" selection-start="1558" selection-end="1558" vertical-scroll-proportion="-0.0" vertical-offset="480" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
@@ -103,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/default.html">
+      <file leaf-file-name="skydiving.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skydiving.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="6" selection-start="3113" selection-end="3113" vertical-scroll-proportion="0.0" vertical-offset="911" max-vertical-offset="1260">
+            <state line="47" column="15" selection-start="2540" selection-end="2601" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1455">
               <folding />
             </state>
           </provider>
@@ -115,16 +115,7 @@
       <file leaf-file-name="project4.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/eecs370/project4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="243" selection-start="8521" selection-end="8521" vertical-scroll-proportion="0.16564417" vertical-offset="1806" max-vertical-offset="3450">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skydiving.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skydiving.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="15" selection-start="2540" selection-end="2601" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1455">
+            <state line="124" column="0" selection-start="5956" selection-end="5956" vertical-scroll-proportion="2.4307692" vertical-offset="1070" max-vertical-offset="4065">
               <folding />
             </state>
           </provider>
@@ -164,7 +155,6 @@
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/guides/eecs370p2.html" />
-        <option value="$PROJECT_DIR$/default.html" />
         <option value="$PROJECT_DIR$/skydiving.html" />
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/guides.html" />
@@ -172,6 +162,7 @@
         <option value="$PROJECT_DIR$/resources/eecs370/project2.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/resources/eecs370/project3.html" />
+        <option value="$PROJECT_DIR$/default.html" />
         <option value="$PROJECT_DIR$/resources/eecs370/project4.html" />
       </list>
     </option>
@@ -495,6 +486,21 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -512,21 +518,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
     <list size="0" />
@@ -562,7 +553,8 @@
       <workItem from="1394925806738" duration="5100000" />
       <workItem from="1395843038972" duration="342000" />
       <workItem from="1396978569800" duration="28000" />
-      <workItem from="1396978618352" duration="87000" />
+      <workItem from="1396978618352" duration="243000" />
+      <workItem from="1396979289637" duration="437000" />
     </task>
     <task id="LOCAL-00001" summary="new resume&#10;">
       <created>1392936179651</created>
@@ -596,7 +588,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20252000" />
+    <option name="totallyTimeSpent" value="20845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="733" extended-state="6" />
@@ -606,13 +598,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.49935815" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901135" sideWeight="0.5006418" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5006418" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26332796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20597738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -984,13 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="102735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="491" column="26" selection-start="7265" selection-end="7265" vertical-scroll-proportion="0.33426183" vertical-offset="7245" max-vertical-offset="106200" />
@@ -1003,14 +988,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="6" selection-start="3113" selection-end="3113" vertical-scroll-proportion="0.0" vertical-offset="911" max-vertical-offset="1260">
+        <state line="65" column="25" selection-start="3331" selection-end="3331" vertical-scroll-proportion="0.18443803" vertical-offset="911" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="102735">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/eecs370/project4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="243" selection-start="8521" selection-end="8521" vertical-scroll-proportion="0.16564417" vertical-offset="1806" max-vertical-offset="3450">
+        <state line="124" column="0" selection-start="5956" selection-end="5956" vertical-scroll-proportion="2.4307692" vertical-offset="1070" max-vertical-offset="4065">
           <folding />
         </state>
       </provider>
