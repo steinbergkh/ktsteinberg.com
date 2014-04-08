@@ -2,3 +2,4 @@
 *.ogv
 *.xml
 .idea/*
+.idea/workspace.xml
