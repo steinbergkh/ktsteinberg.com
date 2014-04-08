@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ae9c2dd-cf17-43c7-9126-4cd772520b5b" name="Default" comment="" />
+    <list default="true" id="9ae9c2dd-cf17-43c7-9126-4cd772520b5b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/eecs370/cache-notes.html" afterPath="$PROJECT_DIR$/resources/eecs370/cache-notes.html" />
+    </list>
     <ignored path="personal-website.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,12 +75,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project4.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="project4.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/eecs370/project4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="29" selection-start="3487" selection-end="3487" vertical-scroll-proportion="0.6465517" vertical-offset="735" max-vertical-offset="3600">
+            <state line="59" column="6" selection-start="3298" selection-end="3298" vertical-scroll-proportion="1.25" vertical-offset="915" max-vertical-offset="3600">
               <folding>
                 <element signature="n#style#0;n#dl#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cache-notes.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/eecs370/cache-notes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="102" column="27" selection-start="5051" selection-end="5051" vertical-scroll-proportion="0.6" vertical-offset="1200" max-vertical-offset="2100">
+              <folding>
+                <element signature="n#style#0;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dl#0;n#dd#1;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,6 +124,7 @@
         <option value="$PROJECT_DIR$/resources.html" />
         <option value="$PROJECT_DIR$/default.html" />
         <option value="$PROJECT_DIR$/resources/eecs370/project4.html" />
+        <option value="$PROJECT_DIR$/resources/eecs370/cache-notes.html" />
       </list>
     </option>
   </component>
@@ -500,7 +515,7 @@
       <workItem from="1395843038972" duration="342000" />
       <workItem from="1396978569800" duration="28000" />
       <workItem from="1396978618352" duration="243000" />
-      <workItem from="1396979289637" duration="2129000" />
+      <workItem from="1396979289637" duration="2603000" />
     </task>
     <task id="LOCAL-00001" summary="new resume&#10;">
       <created>1392936179651</created>
@@ -534,7 +549,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22537000" />
+    <option name="totallyTimeSpent" value="23011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="733" extended-state="6" />
@@ -544,7 +559,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.49935815" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5006418" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5006418" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -602,13 +617,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="61" selection-start="3922" selection-end="3922" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="1455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/eecs370/project2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="189" column="8" selection-start="12649" selection-end="12649" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7350">
@@ -950,9 +958,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/eecs370/project4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="29" selection-start="3487" selection-end="3487" vertical-scroll-proportion="0.6465517" vertical-offset="735" max-vertical-offset="3600">
+        <state line="59" column="6" selection-start="3298" selection-end="3298" vertical-scroll-proportion="1.25" vertical-offset="915" max-vertical-offset="3600">
           <folding>
             <element signature="n#style#0;n#dl#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/eecs370/cache-notes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="27" selection-start="5051" selection-end="5051" vertical-scroll-proportion="0.6" vertical-offset="1200" max-vertical-offset="2100">
+          <folding>
+            <element signature="n#style#0;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#dd#1;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
