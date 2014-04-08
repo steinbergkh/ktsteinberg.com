@@ -59,8 +59,8 @@
     </div><!-- /.navbar-collapse -->
 </nav>
 <div class="container resources" id="eecs370p3">
-    <h1 id="title">EECS 370 -- Cache Notes</h1><br><br>
-    <h3>Helpful Equations</h3><p>
+    <h1 id="title">EECS 370 -- Cache Notes</h1><br>
+    <h2>HELPFUL EQUATIONS</h2><p>
 <b>Cache size in blocks</b> = <b>Cache Size</b> / <b>Number of bytes per block</b><br><br>
 <b>Block Offset (BO) bits</b> = log2(<b># of bytes per block</b>)<br><br>
 <b>Set Index (SI) bits</b> = log2(<b>Cache size in blocks</b> / <b>Ways per set</b>)<br><br>
@@ -93,9 +93,9 @@
     <li>This means that you'll be grabbing everything between address <code>1101 0111 0100 1000</code> and address <code>1101 0111 0100 1111</code> from memory</li>
 </ul>
 <dl class="dl-horizontal long-title" style="width: 90%">
-    <dt>Fully Associative</dt>
-        <dd>is just N-Way Set Associative where N is the cache size in blocks</dd>
-        <dd>
+    <dt class="long-title">Fully Associative</dt>
+        <dd class="long-title">is just N-Way Set Associative where N is the cache size in blocks</dd>
+        <dd class="long-title">
             <dl class="dl-horizontal" style="width: 90%">
                 <dt>SI bits</dt>
                 <dd>= log2(Cache size in blocks / Ways Per Set)</dd>
@@ -107,7 +107,7 @@
 </dl>
 
 
-<h3>Modulus Trick</h3>
+<h2>MODULUS TRICK</h2>
     <p>Let's assume the same example, and say that our <b>last 3 bits are block offset</b>, and the <b>4 bits following those are my set index bits</b>. </p>
 
     <p>This means that I have:</p>
@@ -118,9 +118,13 @@
     <p>For example, let's assume that instead of <code>1101011101001001</code> (the address in the example from above),
     I had given you the same address in decimal form: <code>55113</code>. Now the Block Offset is only one modulus operation away:</p>
 <pre>
-    Block Offset = 55113 % 8 = 1
+Block Offset = 55113 % 8 = 1
 </pre>
     <p>In general, your <code>block offset = (Address % Block Size) </code>.</p>
+
+
+
+<br>
 
 
 <!-- <dl class="dl-horizontal" style="width: 90%">
