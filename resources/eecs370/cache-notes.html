@@ -88,10 +88,24 @@
 
 <p>To figure out which block you need to grab from memory: </p>
 <ul>
-<li>set the block offset to 0 (which will give you the beginning of the block)</li>
-<li>then set the block offset to 111 (which will give you the end of the block)</li>
-<li>This means that you'll be grabbing everything between address <code>1101011101001000</code> and address <code>1101011101001111</code> from memory</li>
+    <li>set the block offset to 0 (which will give you the beginning of the block)</li>
+    <li>then set the block offset to 111 (which will give you the end of the block)</li>
+    <li>This means that you'll be grabbing everything between address <code>1101 0111 0100 1000</code> and address <code>1101 0111 0100 1111</code> from memory</li>
 </ul>
+<dl class="dl-horizontal" style="width: 90%">
+    <dt>Fully Associative</dt>
+        <dd>is just N-Way Set Associative where N is the cache size in blocks</dd>
+        <dd>
+            <dl class="dl-horizontal" style="width: 90%">
+                <dt>SI bits</dt>
+                <dd>= log2(Cache size in blocks / Ways Per Set)</dd>
+                <dd>= log2(N / N)</dd>
+                <dd>= log2(1)</dd>
+                <dd>= 0</dd>
+            </dl>
+        </dd>
+</dl>
+Fully Associative is just N-Way Set Associative where N is the cache size in blocks
 
 <!-- <dl class="dl-horizontal" style="width: 90%">
 	<dt></dt>
