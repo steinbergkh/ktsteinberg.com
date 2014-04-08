@@ -75,21 +75,21 @@
 </p><pre>simulate program.mc blockSizeInWords numberOfSets blocksPerSet</pre>
 <p>Your cache function should simulate a cache with the following characteristics:</p>
 <dl class="dl-horizontal long-title" style="width: 90%">
-        <dt>WRITE POLICY</dt>
+        <dt class="long-title">WRITE POLICY</dt>
                 <dd>Write-back</dd>
                 <dd>Allocate-on-write</dd>
 
-        <dt>ASSOCIATIVITY</dt>
-                <dd>Varies according to the &quot;blocksPerSet&quot; parameter</dd>
-                <dd>Associativity ranges from 1 (direct-mapped) to the number of blocks in the cache (fully associative)</dd>
-        <dt>SIZE</dt>
-                <dd>The total number of words in the cache is blockSizeInWords * numberOfSets * blocksPerSet</dd>
-        <dt>BLOCK SIZE</dt>
-                <dd>Varies according to the &quot;blockSizeInWords&quot; parameter</dd>
-                <dd>All transfers between the cache and memory take place in units of a single block</dd>
-        <dt>PLACEMENT/REPLACEMENT POLICY</dt>
-                <dd>When looking for a block within a set to replace, the best block to replace is an invalid (empty) block</dd>
-                <dd>If there is none of these, replace the least-recently used block</dd>
+        <dt class="long-title">ASSOCIATIVITY</dt>
+                <dd class="long-title">Varies according to the &quot;blocksPerSet&quot; parameter</dd>
+                <dd class="long-title">Associativity ranges from 1 (direct-mapped) to the number of blocks in the cache (fully associative)</dd>
+        <dt class="long-title">SIZE</dt>
+                <dd class="long-title">The total number of words in the cache is blockSizeInWords * numberOfSets * blocksPerSet</dd>
+        <dt class="long-title">BLOCK SIZE</dt>
+                <dd class="long-title">Varies according to the &quot;blockSizeInWords&quot; parameter</dd>
+                <dd class="long-title">All transfers between the cache and memory take place in units of a single block</dd>
+        <dt class="long-title">PLACEMENT/REPLACEMENT POLICY</dt>
+                <dd class="long-title">When looking for a block within a set to replace, the best block to replace is an invalid (empty) block</dd>
+                <dd class="long-title">If there is none of these, replace the least-recently used block</dd>
 </dl>
 
 <p>Make sure the units of each parameter are as specified.  Note that the smallest data granularity in this project is a word, because this is the data granularity of the LC-2Kx architecture.  blockSizeInWords, numberOfSets, and blocksPerSet should all be powers of two.  To simplify your program, you may assume that the maximum number of cache blocks is 256 (this small number allows you to use a 2-dimensional array for the cache data structure).
