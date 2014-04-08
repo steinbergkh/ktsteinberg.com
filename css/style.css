@@ -794,7 +794,7 @@ dd {
         margin-left: 120px
     }
 
-    .dl-horizontal .long-title dt {
+    .dl-horizontal.long-title dt {
         float: left;
         width: 280px;
         overflow: hidden;
@@ -804,7 +804,7 @@ dd {
         white-space: nowrap
     }
 
-    .dl-horizontal .long-title dd {
+    .dl-horizontal.long-title dd {
         margin-left: 290px
     }
 
