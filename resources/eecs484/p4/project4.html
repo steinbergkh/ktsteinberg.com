@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href="/css/style.css" rel="stylesheet" type="text/css">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="http://pre.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script>
@@ -87,24 +87,24 @@
         </form> -->
     </div><!-- /.navbar-collapse -->
 </nav>
-<div class="container resources" id="eecs370p3">
+<div class="container resources" id="eecs484">
     <h1 id="title">EECS 484 -- Project 4</h1><br>
 	<h2>Setting up your environment</h2>
 	<h3>Generate a new SSH key</h3>
 	<p>SSH into caen</p>
-   	<kbd>ssh uniqname@login.engin.umich.edu</kbd>
+   	<code>ssh uniqname@login.engin.umich.edu</code>
 	<p>To generate a new SSH key, copy and paste the text below, making sure to substitute in your email. The default settings are preferred, so when you're asked to "enter a file in which to save the key,"" just press enter to continue.</p>
-   <kbd>ssh-keygen -t rsa -C "your_email@example.com"</kbd>
+   <code>ssh-keygen -t rsa -C "your_email@example.com"</code>
 <p>Next you'll be asked to enter a passphrase. Make sure it's one you'll remember.</p>
-<code>Enter passphrase (empty for no passphrase): [Type a passphrase]
-Enter same passphrase again: [Type passphrase again]</code>
+<pre>Enter passphrase (empty for no passphrase): [Type a passphrase]
+Enter same passphrase again: [Type passphrase again]</pre>
 <p>Then add your new key to the ssh-agent:</p>
-<kbd>ssh-add ~/.ssh/id_rsa</kbd>
+<code>ssh-add ~/.ssh/id_rsa</code>
 <p>Log into mfile, and on the left at the bottom of the "Folder Properties" list under "View Options," select Show Hidden Files. Go to the folder ".ssh," and then click on the file id_rsa.pub.</p>
 <p>Open a new tab and go to your github account. At the top, next to your username, click the account settings button (the wrench and screwdriver). On the next page in the menu on the left, click "SSH Keys." On the top right of the page, click "Add SSH key."</p>
 <p>Call this key "CAEN" and in the MFile tab, copy the contents of the file id_rsa.pub, paste that into the field labeled "key" and then click "Add Key"</p>
 <p>Back in terminal, type the following to clone the git repository:</p>
-<kbd>git clone git@github.com:steinbergkh/EECS484-Project4.git</kbd>
+<code>git clone git@github.com:steinbergkh/EECS484-Project4.git</code>
 
 
 </div>
