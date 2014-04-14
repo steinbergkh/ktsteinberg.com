@@ -94,7 +94,7 @@
 <ul>
 <li><label>
   <input type="checkbox" class="task-list-item-checkbox">
-   <a href="insert.cpp">insert.cpp</a>
+   <a href="#insert">insert.cpp</a>
 </label></li>
 <li><label>
   <input type="checkbox" class="task-list-item-checkbox">
@@ -163,6 +163,79 @@
    &lt;"stars", "soapid", INTEGER, -1, pointer to 4 bytes containing 6&gt;,
 ]
 </code></pre>
+
+<h3 id="insert">Inserting a Record</h3>
+
+<p>To insert the record, you first need to map the data from the arguments to insert into a Record object</p>
+<p>The Record object is defined in <a href="page.h">page.h</a> as:</p>
+<pre class="editor-colors"><code class="lang-cpp">struct Record {
+   void* data;
+   int length;
+}
+</code></pre>
+<p>The data that is passed in is in <em>attrList</em>, which is an array of <em>attrInfo</em> objects. <em>attrInfo</em> is defined in <a href="catalog.h">catalog.h</a> as:</p>
+<pre class="editor-colors"><code class="lang-cpp">typedef struct {
+   char relName[MAXNAME];   // relation name
+   char attrName[MAXNAME];  // attribute name
+   int attrType;            // INTEGER, DOUBLE, or STRING
+   int attrLen;             // length of attribute in bytes
+   void *attrValue          // ptr to binary value (used by the
+                            //    parser for insert into statements)
+} attrInfo;
+</code></pre>
+<p><em>attrCat</em> is a global variable that points to the attribute table for the catalog.</p>
+<pre class="editor-colors"><code class="lang-cpp"> const Status getInfo(const string &amp; rName,
+               const string &amp; attrName,
+               AttrDesc &amp;record);
+</code></pre>
+<p>The AttrDesc struct is defined as:</p>
+<pre class="editor-colors"><code class="lang-cpp">typedef struct {
+  char relName[MAXNAME];                // relation name
+  char attrName[MAXNAME];               // attribute name
+  int attrOffset;                       // attribute offset
+  int attrType;                         // attribute type
+  int attrLen;                          // attribute length
+  int indexed;                          // TRUE if indexed
+} AttrDesc;
+</code></pre>
+<p>At this point, you have all the information to</p>
+<ol>
+<li>allocate the memory for a record</li>
+<li>fill it with data</li>
+<li>insert it into the heapfile</li>
+</ol>
+<h4 id="to-allocate-the-memory-for-the-record">To allocate the memory for the record</h4>
+<ul>
+<li>you need to know the record size</li>
+<li>create a Record object</li>
+<li>allocate the correct number of bytes (record size) for the data field of the record</li>
+</ul>
+<h4 id="fill-it-with-data">Fill it with data</h4>
+<ul>
+<li>fill with data from the attrList</li>
+<li>use the C++ built-in function <a href="http://www.cplusplus.com/reference/cstring/memcpy/">memcpy</a> to do that</li>
+<li>rely on the data from the RelDesc object returned by the getInfo call to determine:<ul>
+<li>the offsets for each attribute</li>
+<li>the # of bytes to copy</li>
+</ul>
+</li>
+</ul>
+<h4 id="insert-the-record-into-the-heapfile">Insert the record into the heapfile</h4>
+<ul>
+<li>Once the record is created, call insertRecord on the ehapfile for the relation</li>
+<li>FIRST, the constructor for the "relation" heapfile needs to be called<ul>
+<li>creates a heapfile if one doesn't exist</li>
+<li>if one exists, it opens the heapfile</li>
+</ul>
+</li>
+<li>THEN, the record you created needs to be inserted</li>
+<li>This returns a Record ID</li>
+</ul>
+<h4 id="index-the-record">Index the Record</h4>
+<ul>
+<li>The Record ID you just created needs to be inserted in each index for the relation</li>
+<li>To determine if there is one or more index for the relation, you need to look at the catalogs</li>
+</ul>
 
 </div>
 <a style="display: none" href="https://plus.google.com/104077635281835092104?rel=author">Google</a>
