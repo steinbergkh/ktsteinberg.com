@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Flat UI - Free Bootstrap Framework and Themes</title>
+    <meta name="description"
+          content="Flat UI Kit Free is a Twitter Bootstrap Framework design and Theme, this responsive framework includes a PSD and HTML version."/>
+
+    <meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="/flat-UI/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="/flat-UI/css/flat-ui.css" rel="stylesheet">
+    <link href="/flat-UI/css/demo.css" rel="stylesheet">
+    <link href="/flat-UI/css/flat-ui-extend.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/flat-UI/images/favicon.ico">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-embossed" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-left">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <b class="caret"></b></a>
+                <span class="dropdown-arrow"></span>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Buttons</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </li>
+            <li><a href="#fakelink">About Us</a></li>
+        </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+</nav>
+<div class="container">
+
+
+<h1>Basic elements</h1>
+<hr>
+<h3 id="buttons">Buttons</h3>
+
+<div class="row demo-row">
+    <div class="col-xs-3">
+        <a href="#fakelink" class="btn btn-block btn-lg btn-primary">Primary Button</a>
+        <code>class="btn-primary"</code>
+    </div>
+    <div class="col-xs-3">
+        <a href="#fakelink" class="btn btn-block btn-lg btn-warning">Warning Button</a>
+        <code>class="btn-warning"</code>
+    </div>
+    <div class="col-xs-3">
+        <a href="#fakelink" class="btn btn-block btn-lg btn-default">Default Button</a>
+        <code>class="btn-default"</code>
+    </div>
+    <div class="col-xs-3">
+        <a href="#fakelink" class="btn btn-block btn-lg btn-danger">Danger Button</a>
+        <code>class="btn-danger"</code>
+    </div>
+</div>
+<!-- /row -->
+
+<div class="row demo-row">
+    <div class="col-xs-3">
+        <a href="#fakelink" class="btn btn-block btn-lg btn-success">Success Button</a>
+        <code>class="btn-success"</code>
+    </div>
+    <div class="col-xs-3">
+        <a href="#fakelink" class="btn btn-block btn-lg btn-inverse">Inverse Button</a>
+        <code>class="btn-inverse"</code>
+    </div>
+    <div class="col-xs-3">
+        <a href="#fakelink" class="btn btn-block btn-lg btn-info">Info Button</a>
+        <code>class="btn-info"</code>
+    </div>
+    <div class="col-xs-3">
+        <a href="#fakelink" class="btn btn-block btn-lg btn-default disabled">Disabled Button</a>
+        <code>class="btn-default disabled"</code>
+    </div>
+</div>
+<!-- /row -->
+<hr>
+
+
+<div>
+    <h3 id="navbar">Navbar</h3>
+    <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+                <span class="sr-only">Toggle navigation</span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-01">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#fakelink">Menu Item<span class="navbar-unread">1</span></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Messages <b class="caret"></b></a>
+                    <span class="dropdown-arrow"></span>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+                <li><a href="#fakelink">About Us</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+    <!-- /navbar -->
+<pre>
+&lt;nav class="navbar navbar-inverse navbar-embossed" role="navigation"&gt;
+    &lt;div class="navbar-header"&gt;
+        &lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01"&gt;
+            &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class="collapse navbar-collapse" id="navbar-collapse-01"&gt;
+        &lt;ul class="nav navbar-nav navbar-left"&gt;
+            &lt;li&gt;&lt;a href="#fakelink"&gt;Menu Item&lt;span class="navbar-unread"&gt;1&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="dropdown"&gt;
+                &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&gt;Messages &lt;b class="caret"&gt;&lt;/b&gt;&lt;/a&gt;
+                &lt;span class="dropdown-arrow"&gt;&lt;/span&gt;
+                &lt;ul class="dropdown-menu"&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Action&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="divider"&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;a href="#fakelink"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;!-- /.navbar-collapse --&gt;
+&lt;/nav&gt;
+</pre>
+
+</div><br><hr>
+<h3 id="dropdown-menu">Dropdown Menu</h3>
+<div class="row demo-row">
+
+    <div class="col-xs-6">
+        <select name="herolist" value="X-Men" class="select-block">
+            <option value="0">Choose hero</option>
+            <option value="1">Spider Man</option>
+            <option value="2">Wolverine</option>
+            <option value="3">Captain America</option>
+            <option value="X-Men" selected="selected">X-Men</option>
+            <option value="Crocodile">Crocodile</option>
+        </select>
+    </div>
+    <div class="col-xs-6">
+<pre>
+&lt;select name="herolist" value="X-Men" class="select-block"&gt;
+    &lt;option value="0"&gt;Choose hero&lt;/option&gt;
+    &lt;option value="1"&gt;Spider Man&lt;/option&gt;
+    &lt;option value="2"&gt;Wolverine&lt;/option&gt;
+    &lt;option value="3"&gt;Captain America&lt;/option&gt;
+    &lt;option value="X-Men" selected="selected"&gt;X-Men&lt;/option&gt;
+    &lt;option value="Crocodile"&gt;Crocodile&lt;/option&gt;
+&lt;/select&gt;
+</pre>
+    </div>
+</div><hr>
+<h3 id="input-boxes">Input</h3>
+<table width="100%"> <!-- input boxes -->
+    <tr>
+        <td width="35%">
+            <div class="form-group">
+                <input type="text" value="" placeholder="Inactive" class="form-control"/>
+            </div>
+        </td>
+        <td style="padding-left: 20px;">
+            <pre>&lt;input type="text" value="" placeholder="Inactive" class="form-control"/&gt;</pre>
+        </td>
+    </tr>
+    <tr>
+        <td width="35%">
+            <div class="form-group has-error">
+                <input type="text" value="Error" class="form-control"/>
+            </div>
+        </td>
+        <td style="padding-left: 20px;">
+            <pre>&lt;input type="text" value="Error" class="form-control"/></pre>
+        </td>
+    </tr>
+    <tr>
+        <td width="35%">
+            <div class="form-group has-success">
+                input type="text" value="Success" class="form-control"/>
+                <span class="input-icon fui-check-inverted"></span>
+            </div>
+        </td>
+        <td style="padding-left: 20px;">
+                    <pre>&lt;input type="text" value="Success" class="form-control"/>
+                        &lt;span class="input-icon fui-check-inverted"></span></pre>
+        </td>
+    </tr>
+    <tr>
+        <td width="35%">
+            <div class="form-group">
+                <input type="text" value="Disabled" disabled="disabled" class="form-control"/>
+            </div>
+        </td>
+        <td style="padding-left: 20px;">
+            <pre>&lt;input type="text" value="Disabled" disabled="disabled" class="form-control"/></pre>
+        </td>
+    </tr>
+</table> <!-- /input boxes -->
+<hr>
+<h3 id="sliders">Progress bars &amp; Sliders</h3>
+<table width="100%">
+    <tr>
+        <td width="45%">
+            <div class="progress">
+                <div class="progress-bar" style="width: 45%;"></div>
+            </div>
+        </td>
+        <td style="padding-left: 20px;">
+                    <pre>
+&lt;div class="progress">
+    &lt;div class="progress-bar" style="width: 45%;">&lt;/div>
+&lt;/div></pre>
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">
+            <div class="progress">
+                <div class="progress-bar" style="width: 40%;"></div>
+                <div class="progress-bar progress-bar-warning" style="width: 10%;"></div>
+                <div class="progress-bar progress-bar-danger" style="width: 10%;"></div>
+                <div class="progress-bar progress-bar-success" style="width: 10%;"></div>
+                <div class="progress-bar progress-bar-info" style="width: 10%;"></div>
+            </div>
+        </td>
+        <td style="padding-left: 20px;">
+<pre>
+&lt;div class="progress"&gt;
+    &lt;div class="progress-bar" style="width: 40%;"&gt;&lt;/div&gt;
+    &lt;div class="progress-bar progress-bar-warning" style="width: 10%;"&gt;&lt;/div&gt;
+    &lt;div class="progress-bar progress-bar-danger" style="width: 10%;"&gt;&lt;/div&gt;
+    &lt;div class="progress-bar progress-bar-success" style="width: 10%;"&gt;&lt;/div&gt;
+    &lt;div class="progress-bar progress-bar-info" style="width: 10%;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+        </td>
+    </tr>
+    <tr>
+        <td width="45%">
+            <div id="slider" class="ui-slider">
+                <div class="ui-slider-segment"></div>
+                <div class="ui-slider-segment"></div>
+                <div class="ui-slider-segment"></div>
+            </div>
+        </td>
+        <td style="padding-left: 20px;">
+<pre>
+&lt;div id="slider" class="ui-slider"&gt;
+    &lt;div class="ui-slider-segment"&gt;&lt;/div&gt;
+    &lt;div class="ui-slider-segment"&gt;&lt;/div&gt;
+    &lt;div class="ui-slider-segment"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+        </td>
+    </tr>
+</table> <!-- /progress bars & sliders -->
+<hr>
+<h3 id="navigation">Navigation</h3>
+<table width="100%">
+    <tr>
+        <td width="45%">
+            <div class="btn-toolbar">
+                <div class="btn-group">
+                    <a class="btn btn-primary" href="#fakelink"><span class="fui-time"></span></a>
+                    <a class="btn btn-primary" href="#fakelink"><span class="fui-photo"></span></a>
+                    <a class="btn btn-primary active" href="#fakelink"><span class="fui-heart"></span></a>
+                    <a class="btn btn-primary" href="#fakelink"><span class="fui-eye"></span></a>
+                </div>
+            </div>
+            <!-- /toolbar -->
+        </td>
+    </tr><tr><td>
+<pre>
+&lt;div class="btn-toolbar"&gt;
+    &lt;div class="btn-group"&gt;
+        &lt;a class="btn btn-primary" href="#fakelink"&gt;&lt;span class="fui-time"&gt;&lt;/span&gt;&lt;/a&gt;
+        &lt;a class="btn btn-primary" href="#fakelink"&gt;&lt;span class="fui-photo"&gt;&lt;/span&gt;&lt;/a&gt;
+        &lt;a class="btn btn-primary active" href="#fakelink"&gt;&lt;span class="fui-heart"&gt;&lt;/span&gt;&lt;/a&gt;
+        &lt;a class="btn btn-primary" href="#fakelink"&gt;&lt;span class="fui-eye"&gt;&lt;/span&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</td>
+</tr>
+    <tr>
+        <td>
+            <div>
+                <ul class="pager">
+                    <li class="previous">
+                        <a href="#fakelink">
+                            <span class="fui-arrow-left"></span>
+                            <span>All messages</span>
+                        </a>
+                    </li>
+                    <li class="next">
+                        <a href="#fakelink">
+                            <span class="fui-arrow-right"></span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- /pager -->
+            </div>
+        </td>
+    </tr><tr><td>
+<pre>
+&lt;ul class="pager"&gt;
+    &lt;li class="previous"&gt;
+        &lt;a href="#fakelink"&gt;
+            &lt;span class="fui-arrow-left"&gt;&lt;/span&gt;
+            &lt;span&gt;All messages&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="next"&gt;
+        &lt;a href="#fakelink"&gt;
+            &lt;span class="fui-arrow-right"&gt;&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+</td>
+</tr>
+    <tr>
+        <td>
+            <div class="pagination">
+                <ul>
+                    <li class="previous"><a href="#fakelink" class="fui-arrow-left"></a></li>
+                    <li class="active"><a href="#fakelink">1</a></li>
+                    <li><a href="#fakelink">2</a></li>
+                    <li><a href="#fakelink">3</a></li>
+                    <li><a href="#fakelink">4</a></li>
+                    <li><a href="#fakelink">5</a></li>
+                    <li><a href="#fakelink">6</a></li>
+                    <li><a href="#fakelink">7</a></li>
+                    <li><a href="#fakelink">8</a></li>
+                    <li class="next"><a href="#fakelink" class="fui-arrow-right"></a></li>
+                </ul>
+            </div>
+            <!-- /pagination -->
+        </td>
+    </tr><tr><td>
+<pre>
+&lt;div class="pagination"&gt;
+    &lt;ul&gt;
+        &lt;li class="previous"&gt;&lt;a href="#fakelink" class="fui-arrow-left"&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="active"&gt;&lt;a href="#fakelink"&gt;1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#fakelink"&gt;2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#fakelink"&gt;3&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#fakelink"&gt;4&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#fakelink"&gt;5&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#fakelink"&gt;6&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#fakelink"&gt;7&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#fakelink"&gt;8&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="next"&gt;&lt;a href="#fakelink" class="fui-arrow-right"&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+</pre>
+</td>
+</tr>
+</table> <!-- /navigation stuff -->
+<hr>
+
+<div>
+    <h3 id="checkboxes">Checkboxes</h3>
+    <table width="100%">
+        <tr>
+            <td width="40%">
+                <label class="checkbox" for="checkbox1">
+                    <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox">
+                    Unchecked
+                </label>
+            </td>
+            <td>
+<pre>
+&lt;label class="checkbox" for="checkbox1"&gt;
+    &lt;input type="checkbox" value="" id="checkbox1" data-toggle="checkbox"&gt;
+    Unchecked
+&lt;/label&gt;
+</pre>
+            </td>
+        </tr>
+        <tr>
+            <td width="40%">
+                <label class="checkbox" for="checkbox2">
+                    <input type="checkbox" checked="checked" value="" id="checkbox2" data-toggle="checkbox" checked="">
+                    Checked
+                </label>
+            </td>
+            <td>
+<pre>
+&lt;label class="checkbox" for="checkbox2"&gt;
+    &lt;input type="checkbox" checked="checked" value="" id="checkbox2" data-toggle="checkbox" checked=""&gt;
+    Checked
+&lt;/label&gt;
+</pre>
+            </td>
+        </tr>
+        <tr>
+            <td width="40%">
+                <label class="checkbox" for="checkbox3">
+                    <input type="checkbox" value="" id="checkbox3" data-toggle="checkbox" disabled="">
+                    Disabled unchecked
+                </label>
+            </td>
+            <td>
+<pre>
+&lt;label class="checkbox" for="checkbox3"&gt;
+    &lt;input type="checkbox" value="" id="checkbox3" data-toggle="checkbox" disabled=""&gt;
+    Disabled unchecked
+&lt;/label&gt;
+</pre>
+            </td>
+        </tr>
+        <tr>
+            <td width="40%">
+                <label class="checkbox" for="checkbox4">
+                    <input type="checkbox" checked="checked" value="" id="checkbox4" data-toggle="checkbox" disabled="" checked="">
+                    Disabled checked
+                </label>
+            </td>
+            <td>
+<pre>
+&lt;label class="checkbox" for="checkbox4"&gt;
+    &lt;input type="checkbox" checked="checked" value="" id="checkbox4" data-toggle="checkbox" disabled="" checked=""&gt;
+    Disabled checked
+&lt;/label&gt;
+</pre>
+            </td>
+        </tr>
+    </table>
+</div><!-- /checkboxes -->
+<hr>
+<div>
+    <h3 id="radio-buttons">Radio Buttons</h3>
+    <table width="100%">
+        <tr>
+            <td width="40%">
+                <label class="radio">
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">
+                    Radio is off
+                </label>
+            </td>
+            <td>
+<pre>
+&lt;label class="radio"&gt;
+    &lt;input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio"&gt;
+    Radio is off
+&lt;/label&gt;
+</pre>
+            </td>
+        </tr>
+        <tr>
+            <td width="40%">
+                <label class="radio">
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1" data-toggle="radio" checked="">
+                    Radio is on
+                </label>
+            </td>
+            <td>
+<pre>
+&lt;label class="radio"&gt;
+    &lt;input type="radio" name="optionsRadios" id="optionsRadios2" value="option1" data-toggle="radio" checked=""&gt;
+    Radio is on
+&lt;/label&gt;
+</pre>
+            </td>
+        </tr>
+        <tr>
+            <td width="40%">
+                <label class="radio">
+                    <input type="radio" name="optionsRadiosDisabled" id="optionsRadios3" value="option2" data-toggle="radio"
+                           disabled="">
+                    Disabled radio is off
+                </label>
+            </td>
+            <td>
+<pre>
+&lt;label class="radio"&gt;
+    &lt;input type="radio" name="optionsRadiosDisabled" id="optionsRadios3" value="option2" data-toggle="radio"
+           disabled=""&gt;
+    Disabled radio is off
+&lt;/label&gt;
+</pre>
+            </td>
+        </tr>
+        <tr>
+            <td width="40%">
+                <label class="radio">
+                    <input type="radio" name="optionsRadiosDisabled" id="optionsRadios4" value="option2" data-toggle="radio"
+                           checked="" disabled="">
+                    Disabled radio is on
+                </label>
+            </td>
+            <td>
+<pre>
+&lt;label class="radio"&gt;
+    &lt;input type="radio" name="optionsRadiosDisabled" id="optionsRadios4" value="option2" data-toggle="radio"
+           checked="" disabled=""&gt;
+    Disabled radio is on
+&lt;/label&gt;
+</pre>
+            </td>
+        </tr>
+    </table>
+</div><!-- /radios -->
+<hr>
+<div>
+    <h3 id="switches">Switches</h3>
+    <table width="100%">
+        <tr>
+            <td width="13%" class="pbm">
+                <input type="checkbox" checked="" data-toggle="switch"/>
+            </td>
+            <td>
+<pre>
+&lt;input type="checkbox" checked="" data-toggle="switch"/&gt;
+</pre>
+            </td>
+        </tr>
+        <tr>
+            <td width="13%" class="pbm">
+                <input type="checkbox" data-toggle="switch"/>
+            </td>
+            <td>
+<pre>
+&lt;input type="checkbox" data-toggle="switch"/&gt;
+</pre>
+            </td>
+        </tr>
+        <tr>
+            <td width="13%" class="pbm">
+                <div class="switch switch-square" data-on-label="<i class='fui-check'></i>"
+                     data-off-label="<i class='fui-cross'></i>">
+                    <input type="checkbox"/>
+                </div>
+            </td>
+            <td>
+<pre>
+&lt;div class="switch switch-square" data-on-label="&lt;i class='fui-check'&gt;&lt;/i&gt;"
+     data-off-label="&lt;i class='fui-cross'&gt;&lt;/i&gt;"&gt;
+    &lt;input type="checkbox"/&gt;
+&lt;/div&gt;
+</pre>
+            </td>
+        </tr>
+        <tr>
+            <td width="13%" class="pbm">
+                <div class="switch switch-square" data-on-label="<i class='fui-check'></i>"
+                     data-off-label="<i class='fui-cross'></i>">
+                    <input type="checkbox" checked/>
+                </div>
+            </td>
+            <td>
+<pre>
+&lt;div class="switch switch-square" data-on-label="&lt;i class='fui-check'&gt;&lt;/i&gt;"
+     data-off-label="&lt;i class='fui-cross'&gt;&lt;/i&gt;"&gt;
+    &lt;input type="checkbox" checked/&gt;
+&lt;/div&gt;
+</pre>
+            </td>
+        </tr>
+        <tr>
+            <td width="13%">
+                <input type="checkbox" disabled data-toggle="switch"/>
+            </td>
+            <td>
+<pre>
+&lt;input type="checkbox" disabled data-toggle="switch"/&gt;
+</pre>
+            </td>
+        </tr>
+        <tr>
+            <td width="13%">
+                <input type="checkbox" checked disabled data-toggle="switch"/>
+            </td>
+            <td>
+<pre>
+&lt;input type="checkbox" checked disabled data-toggle="switch"/&gt;
+</pre>
+            </td>
+        </tr>
+    </table>
+</div><!-- /toggles-->
+<hr>
+<div>
+    <h3 id="tags">Tags</h3>
+    <input name="tagsinput" id="tagsinput" class="tagsinput" value="Clean,Fresh,Modern,Unique"/>
+<pre>
+&lt;input name="tagsinput" id="tagsinput" class="tagsinput" value="Clean,Fresh,Modern,Unique"/&gt;
+</pre>
+</div> <!-- /tags -->
+<hr>
+<div class="tooltips">
+    <h3 id="tooltips">Tooltips</h3>
+    <div class="row" style="margin-top:100px; margin-bottom:80px;">
+        <div class="col-xs-6">
+            <p align="center" data-toggle="tooltip" data-placement="bottom" title="Tooltip under the text." >
+                here's some text too la la la
+            </p>
+        </div>
+        <div class="col-xs-6">
+            <p align="center" data-toggle="tooltip"
+               title="Here is the sample of talltooltip that contains three lines or more. More.">
+                here's some text la la la
+            </p>
+        </div>
+    </div>
+    <div class="row" style="margin-top:20px;">
+        <div class="col-xs-6">
+
+<pre>
+&lt;p align="center" data-toggle="tooltip" data-placement="bottom" title="Tooltip under the text." &gt;
+    here's some text too la la la
+&lt;/p&gt;
+</pre>
+        </div>
+        <div class="col-xs-6">
+<pre>
+&lt;p align="center" data-toggle="tooltip"
+   title="Here is the sample of talltooltip that contains three lines or more. More."&gt;
+here's some text la la la
+&lt;/p&gt;
+</pre>
+        </div>
+    </div>
+</div> <!-- /tooltips -->
+<hr>
+<div class="demo-row typography-row">
+    <div class="demo-title">
+        <h3 id="typography">Typography</h3>
+    </div>
+    <div class="demo-content">
+        <div class="demo-type-example">
+            <h1><span class="demo-heading-note">Header 1</span>Showers across the W</h1>
+        </div>
+        <pre>&lt;h1&gt;Showers across the W&lt;/h1&gt;</pre>
+        <br><hr><br>
+
+        <div class="demo-type-example">
+            <h2><span class="demo-heading-note">Header 2</span>Give this quartet a few</h2>
+        </div>
+        <pre>&lt;h2&gt;Give this quartet a few&lt;/h2&gt;</pre>
+        <br><hr><br>
+
+        <div class="demo-type-example">
+            <h3 id=""><span class="demo-heading-note">Header 3</span>The Vatican transitions to a</h3>
+        </div>
+        <pre>&lt;h3&gt;The Vatican transitions to a&lt;/h3&gt;</pre>
+        <br><hr><br>
+
+        <div class="demo-type-example">
+            <h4><span class="demo-heading-note">Header 4</span>Great American Bites: Telluride's Oak, The</h4>
+        </div>
+        <pre>&lt;h4&gt;Great American Bites: Telluride's Oak, The&lt;/h4&gt;</pre>
+        <br><hr><br>
+
+        <div class="demo-type-example">
+            <h5><span class="demo-heading-note">Header 5</span>Author Diane Alberts loves her some good</h5>
+        </div>
+        <pre>&lt;h5&gt;Author Diane Alberts loves her some good&lt;/h5&gt;</pre>
+        <br><hr><br>
+
+        <div class="demo-type-example">
+            <h6><span class="demo-heading-note">Header 6</span>With the success of young-adult book-to-movie</h6>
+        </div>
+        <pre>&lt;h6&gt;With the success of young-adult book-to-movie&lt;/h6&gt;</pre>
+        <br><hr><br>
+
+        <div class="demo-type-example">
+            <span class="demo-text-note">Paragraph</span>
+
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper
+                nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+                lacinia odio sem nec elit.</p>
+        </div>
+        <pre>&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.&lt;/p&gt;</pre>
+        <br><hr><br>
+
+        <div class="demo-type-example">
+            <span class="demo-text-note">Image</span>
+            <img src="/flat-UI/images/exaple-image.jpg" alt="exaple-image" class="img-rounded img-responsive">
+
+            <p class="img-comment"><strong>Note:</strong> gravida at eget metus. Duis mollis, est non commodo luctus,
+                nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        </div>
+        <pre>&lt;img src="/flat-UI/images/exaple-image.jpg" alt="exaple-image" class="img-rounded img-responsive"&gt;
+        &lt;p class="img-comment"&gt;&lt;strong&gt;Note:&lt;/strong&gt; gravida at eget metus. Duis mollis, est non commodo luctus.&lt;/p&gt;</pre>
+        <br><hr><br>
+
+        <div class="demo-type-example">
+            <span class="demo-text-note">Lead Text</span>
+
+            <p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+        <pre>&lt;p class="lead"&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;</pre>
+        <br><hr><br>
+
+        <div class="demo-type-example">
+            <span class="demo-text-note">Quote</span>
+            <blockquote>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+                    ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus.</p>
+                <small>Steve Jobs, CEO Apple</small>
+            </blockquote>
+        </div>
+        <pre>&lt;blockquote&gt;
+        &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. &lt;/p&gt;
+        &lt;small&gt;Steve Jobs, CEO Apple&lt;/small&gt;
+        &lt;/blockquote&gt;</pre>
+        <br><hr><br>
+
+        <div class="demo-type-example">
+            <span class="demo-text-note">Small Font</span>
+
+            <p>
+                <small>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+                    ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat
+                    porttitor ligula, eget lacinia odio sem nec elit.
+                </small>
+            </p>
+        </div>
+        <pre>&lt;small&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. &lt;/small&gt;</pre>
+    </div>
+    <!-- /.demo-content-wide -->
+</div>
+<!-- /.demo-row -->
+<hr>
+
+<h3 id="color-palette">Color Swatches</h3>
+
+<div class="row demo-swatches-row">
+    <div class="swatches-col">
+        <div class="pallete-item">
+            <dl class="palette palette-turquoise">
+                <dt>#1abc9c</dt>
+                <dd>Turquoise</dd>
+            </dl>
+            <dl class="palette palette-green-sea">
+                <dt>#16a085</dt>
+                <dd>Green sea</dd>
+            </dl>
+        </div>
+        <div class="pallete-item">
+            <dl class="palette palette-emerald">
+                <dt>#2ecc71</dt>
+                <dd>Emerald</dd>
+            </dl>
+            <dl class="palette palette-nephritis">
+                <dt>#27ae60</dt>
+                <dd>Nephritis</dd>
+            </dl>
+        </div>
+        <div class="pallete-item">
+            <dl class="palette palette-peter-river">
+                <dt>#3498db</dt>
+                <dd>Peter river</dd>
+            </dl>
+            <dl class="palette palette-belize-hole">
+                <dt>#2980b9</dt>
+                <dd>Belize hole</dd>
+            </dl>
+        </div>
+        <div class="pallete-item">
+            <dl class="palette palette-amethyst">
+                <dt>#9b59b6</dt>
+                <dd>Amethyst</dd>
+            </dl>
+            <dl class="palette palette-wisteria">
+                <dt>#8e44ad</dt>
+                <dd>Wisteria</dd>
+            </dl>
+        </div>
+        <div class="pallete-item">
+            <dl class="palette palette-wet-asphalt">
+                <dt>#34495e</dt>
+                <dd>Wet asphalt</dd>
+            </dl>
+            <dl class="palette palette-midnight-blue">
+                <dt>#2c3e50</dt>
+                <dd>Midnight blue</dd>
+            </dl>
+        </div>
+        <div class="pallete-item">
+            <dl class="palette palette-sun-flower">
+                <dt>#f1c40f</dt>
+                <dd>Sun flower</dd>
+            </dl>
+            <dl class="palette palette-orange">
+                <dt>#f39c12</dt>
+                <dd>Orange</dd>
+            </dl>
+        </div>
+        <div class="pallete-item">
+            <dl class="palette palette-carrot">
+                <dt>#e67e22</dt>
+                <dd>Carrot</dd>
+            </dl>
+            <dl class="palette palette-pumpkin">
+                <dt>#d35400</dt>
+                <dd>Pumpkin</dd>
+            </dl>
+        </div>
+        <div class="pallete-item">
+            <dl class="palette palette-alizarin">
+                <dt>#e74c3c</dt>
+                <dd>Alizarin</dd>
+            </dl>
+            <dl class="palette palette-pomegranate">
+                <dt>#c0392b</dt>
+                <dd>Pomegranate</dd>
+            </dl>
+        </div>
+        <div class="pallete-item">
+            <dl class="palette palette-clouds">
+                <dt>#ecf0f1</dt>
+                <dd>Clouds</dd>
+            </dl>
+            <dl class="palette palette-silver">
+                <dt>#bdc3c7</dt>
+                <dd>Silver</dd>
+            </dl>
+        </div>
+        <div class="pallete-item">
+            <dl class="palette palette-concrete">
+                <dt>#95a5a6</dt>
+                <dd>Concrete</dd>
+            </dl>
+            <dl class="palette palette-asbestos">
+                <dt>#7f8c8d</dt>
+                <dd>Asbestos</dd>
+            </dl>
+        </div>
+    </div>
+    <!-- /swatches items -->
+    <div class="swatches-desc-col">
+        <h6 class="palette-headline">SWATCHES</h6>
+
+        <p class="palette-paragraph">
+            To use these colors as the background color of an object, add the class "palette-[color name with dashes]" to the object.
+        </p>
+
+        <p class="palette-paragraph">
+            <strong>Example -</strong> to use the color midnight blue as the color of a button. We could say
+            <code>&lt;a href="#" class="btn palette-midnight-blue"&gt;</code>
+        </p>
+    </div>
+    <!-- /swatches desc -->
+</div>
+<!-- /swatches row -->
+<hr>
+<h3 id="icons">Icons
+    <small>(14)</small>
+</h3>
+<div class="demo-illustrations">
+    <div class="demo-content">
+        <div><img src="/flat-UI/images/icons/svg/toilet-paper.svg" alt="Toilet-Paper"></div>
+        <div><img src="/flat-UI/images/icons/svg/gift-box.svg" alt="Gift-Box"></div>
+        <div><img src="/flat-UI/images/icons/svg/pencils.svg" alt="Pensils"></div>
+        <div><img src="/flat-UI/images/icons/svg/clipboard.svg" alt="Clipboard"></div>
+        <div><img src="/flat-UI/images/icons/svg/retina.svg" alt="Retina"></div>
+        <div><img src="/flat-UI/images/icons/svg/compas.svg" alt="Compas"></div>
+        <div><img src="/flat-UI/images/icons/svg/map.svg" alt="Map"></div>
+        <div><img src="/flat-UI/images/icons/svg/chat.svg" alt="Chat"></div>
+        <div><img src="/flat-UI/images/icons/svg/mail.svg" alt="Mail"></div>
+        <div><img src="/flat-UI/images/icons/svg/book.svg" alt="Book"></div>
+        <div><img src="/flat-UI/images/icons/svg/calendar.svg" alt="Calendar"></div>
+        <div><img src="/flat-UI/images/icons/svg/paper-bag.svg" alt="Pocket"></div>
+        <div><img src="/flat-UI/images/icons/svg/clocks.svg" alt="Watches"></div>
+        <div><img src="/flat-UI/images/icons/svg/loop.svg" alt="Infinity-Loop"></div>
+    </div>
+</div>
+<hr>
+
+<h3 id="glyphs">Glyphs
+    <small>(30)</small>
+</h3>
+<div class="demo-icons">
+    <div class="row demo-content">
+        <div class="col-xs-4">
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-arrow-right"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-arrow-right</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-arrow-left"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-arrow-left</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-cmd"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-cmd</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-check-inverted"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-check-inverted</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-heart"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-heart</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-location"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-location</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-plus"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-plus</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-check"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-check</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-cross"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-cross</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-list"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-list</code></dd>
+            </dl>
+        </div>
+        <div class="col-xs-4">
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-new"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-new</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-video"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-video</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-photo"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-photo</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-volume"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-volume</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-time"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-time</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-eye"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-eye</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-chat"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-chat</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-search"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-search</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-user"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-user</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-mail"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-mail</code></dd>
+            </dl>
+
+        </div>
+        <div class="col-xs-4">
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-lock"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-lock</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-gear"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-gear</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-radio-unchecked"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-radio-unchecked</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-radio-checked"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-radio-checked</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-checkbox-unchecked"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-checkbox-unchecked</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-checkbox-checked"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-checkbox-checked</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-calendar-solid"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-calendar-solid</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-pause"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-pause</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt class="dt-icon">
+                <span class="fui-play"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-play</code></dd>
+            </dl>
+            <dl class="dl-horizontal"><dt>
+                <span class="fui-check-inverted-2"></span>
+            </dt>
+                <dd class="dd-icon-class"><code>fui-check-inverted-2</code></dd>
+            </dl>
+        </div>
+
+    </div>
+</div>
+<!-- /icon font row -->
+<hr>
+<h1 class="demo-section-title mbl pbl">Samples</h1>
+
+<div class="row demo-samples">
+    <div class="col-xs-4">
+        <div class="todo">
+            <div class="todo-search">
+                <input class="todo-search-field" type="search" value="" placeholder="Search"/>
+            </div>
+            <ul>
+                <li class="todo-done">
+                    <div class="todo-icon fui-user"></div>
+                    <div class="todo-content">
+                        <h4 class="todo-name">
+                            Meet <strong>Adrian</strong> at <strong>6pm</strong>
+                        </h4>
+                        Times Square
+                    </div>
+                </li>
+                <li>
+                    <div class="todo-icon fui-list"></div>
+                    <div class="todo-content">
+                        <h4 class="todo-name">
+                            Chat with <strong>V.Kudinov</strong>
+                        </h4>
+                        Skype conference an 9 am
+                    </div>
+                </li>
+                <li>
+                    <div class="todo-icon fui-eye"></div>
+                    <div class="todo-content">
+                        <h4 class="todo-name">
+                            Watch <strong>Iron Man</strong>
+                        </h4>
+                        1998 Broadway
+                    </div>
+                </li>
+                <li>
+                    <div class="todo-icon fui-time"></div>
+                    <div class="todo-content">
+                        <h4 class="todo-name">
+                            Fix bug on a <strong>Website</strong>
+                        </h4>
+                        As soon as possible
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /todo list -->
+
+    <div class="col-xs-8 demo-video">
+        <!--[if !IE]> -->
+        <video class="video-js" controls preload="auto" width="620" height="349" poster="images/video/poster.jpg"
+               data-setup="{}">
+            <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.mp4" type="video/mp4">
+            <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.webm" type="video/webm">
+        </video>
+        <!-- <![endif]-->
+
+        <!--[if IE]>
+        <video class="video-js" controls preload="auto" width="620" height="256"
+               poster="http://video-js.zencoder.com/oceans-clip.jpg" data-setup="{}">
+            <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4'/>
+            <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm'/>
+        </video>
+        <![endif]-->
+    </div>
+    <!-- /video -->
+</div>
+
+<div class="row demo-tiles">
+    <div class="col-xs-3">
+        <div class="tile">
+            <img src="/flat-UI/images/icons/svg/compas.svg" alt="Compas" class="tile-image big-illustration">
+
+            <h3 class="tile-title">Web Oriented</h3>
+
+            <p>100% convertable to HTML/CSS layout.</p>
+            <a class="btn btn-primary btn-large btn-block" href="http://designmodo.com/flat">Get Pro</a>
+        </div>
+    </div>
+
+    <div class="col-xs-3">
+        <div class="tile">
+            <img src="/flat-UI/images/icons/svg/loop.svg" alt="Infinity-Loop" class="tile-image">
+
+            <h3 class="tile-title">Easy to Customize</h3>
+
+            <p>Vector-based shapes and minimum of layer styles.</p>
+            <a class="btn btn-primary btn-large btn-block" href="http://designmodo.com/flat">Get Pro</a>
+        </div>
+    </div>
+
+    <div class="col-xs-3">
+        <div class="tile">
+            <img src="/flat-UI/images/icons/svg/pencils.svg" alt="Pensils" class="tile-image">
+
+            <h3 class="tile-title">Color Swatches</h3>
+
+            <p>Easy to add or change elements. </p>
+            <a class="btn btn-primary btn-large btn-block" href="http://designmodo.com/flat">Get Pro</a>
+        </div>
+    </div>
+
+    <div class="col-xs-3">
+        <div class="tile tile-hot">
+            <img src="/flat-UI/images/icons/svg/chat.svg" alt="Chat" class="tile-image">
+
+            <h3 class="tile-title">Free for Share</h3>
+
+            <p>Your likes, shares and comments helps us.</p>
+            <a class="btn btn-primary btn-large btn-block" href="http://designmodo.com/flat">Get Pro</a>
+        </div>
+
+    </div>
+</div>
+<!-- /tiles -->
+
+<div class="login">
+    <div class="login-screen">
+        <div class="login-icon">
+            <img src="/flat-UI/images/login/icon.png" alt="Welcome to Mail App"/>
+            <h4>Welcome to
+                <small>Mail App</small>
+            </h4>
+        </div>
+
+        <div class="login-form">
+            <div class="form-group">
+                <input type="text" class="form-control login-field" value="" placeholder="Enter your name"
+                       id="login-name"/>
+                <label class="login-field-icon fui-user" for="login-name"></label>
+            </div>
+
+            <div class="form-group">
+                <input type="password" class="form-control login-field" value="" placeholder="Password"
+                       id="login-pass"/>
+                <label class="login-field-icon fui-lock" for="login-pass"></label>
+            </div>
+
+            <a class="btn btn-primary btn-lg btn-block" href="#">Login</a>
+            <a class="login-link" href="#">Lost your password?</a>
+        </div>
+    </div>
+</div>
+
+
+</div>
+<!-- /container -->
+<!-- Load JS here for greater good =============================-->
+<script src="/flat-UI/js/jquery-1.8.3.min.js"></script>
+<script src="/flat-UI/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="/flat-UI/js/jquery.ui.touch-punch.min.js"></script>
+<script src="/flat-UI/js/bootstrap.min.js"></script>
+<script src="/flat-UI/js/bootstrap-select.js"></script>
+<script src="/flat-UI/js/bootstrap-switch.js"></script>
+<script src="/flat-UI/js/flatui-checkbox.js"></script>
+<script src="/flat-UI/js/flatui-radio.js"></script>
+<script src="/flat-UI/js/jquery.tagsinput.js"></script>
+<script src="/flat-UI/js/jquery.placeholder.js"></script>
+<script src="/flat-UI/js/jquery.stacktable.js"></script>
+<script src="/flat-UI/http://vjs.zencdn.net/4.3/video.js"></script>
+<script src="/flat-UI/js/application.js"></script>
+</body>
+</html>
