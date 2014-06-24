@@ -1,0 +1,69 @@
+
+<div class="container resources" id="eecs370p3">
+    <h1 id="title">EECS 370 -- Cache Notes</h1><br>
+    <h2>HELPFUL EQUATIONS</h2><p>
+<b>Cache size in blocks</b> = <b>Cache Size</b> / <b>Number of bytes per block</b><br><br>
+<b>Block Offset (BO) bits</b> = log2(<b># of bytes per block</b>)<br><br>
+<b>Set Index (SI) bits</b> = log2(<b>Cache size in blocks</b> / <b>Ways per set</b>)<br><br>
+<b>Tag bits</b> = <b>Total Address Size</b> - <b>Block Offset</b> - <b>Set Index</b>
+</p><br>
+<h2>EXAMPLE</h2>
+
+<p>Example 16-bit address: <code>1101011101001001</code></p>
+ 
+<p>Let's say that you used the equations in the previous section to calculate that you had</p>
+<ul>
+<li>9 bits of tag</li>
+<li>4 bits of set index</li>
+<li>3 bits of block offset</li>
+</ul>
+<h4>So now your address looks like this:</h4>
+<dl class="dl-horizontal" style="width: 90%">
+	<dt>Tag</dt>
+		<dd>110101110</dd>
+	<dt>Set Index</dt>
+		<dd>1001</dd>
+	<dt>Block Offset</dt>
+		<dd>001</dd>
+</dl>
+
+<p>To figure out which block you need to grab from memory: </p>
+<ul>
+    <li>set the block offset to 0 (which will give you the beginning of the block)</li>
+    <li>then set the block offset to 111 (which will give you the end of the block)</li>
+    <li>This means that you'll be grabbing everything between address <code>1101 0111 0100 1000</code> and address <code>1101 0111 0100 1111</code> from memory</li>
+</ul>
+<dl class="dl-horizontal long-title" style="width: 90%">
+    <dt style="width: 160px">Fully Associative</dt>
+        <dd style="margin-left: 170px">is just N-Way Set Associative where N is the cache size in blocks</dd>
+        <dd style="margin-left: 170px">
+            <dl class="dl-horizontal" style="width: 90%">
+                <dt style="width: 100px">SI bits</dt>
+                <dd style="margin-left: 110px">= log2(Cache size in blocks / Ways Per Set)</dd>
+                <dd style="margin-left: 110px">= log2(N / N)</dd>
+                <dd style="margin-left: 110px">= log2(1)</dd>
+                <dd style="margin-left: 110px">= 0</dd>
+            </dl>
+        </dd>
+</dl>
+
+
+<h2>MODULUS TRICK</h2>
+    <p>Let's assume the same example, and say that our <b>last 3 bits are block offset</b>, and the <b>4 bits following those are my set index bits</b>. </p>
+
+    <p>This means that I have:</p>
+    <ul><li>2^3 = 8 bytes per block</li>
+        <li>2^4 = 16 sets in total</li></ul>
+<p>So, I can just use <code>(Address % 8)</code> to figure out my block offset at anytime.</p>
+
+    <p>For example, let's assume that instead of <code>1101011101001001</code> (the address in the example from above),
+    I had given you the same address in decimal form: <code>55113</code>. Now the Block Offset is only one modulus operation away:</p>
+<pre>
+Block Offset = 55113 % 8 = 1
+</pre>
+    <p>In general, your <code>block offset = (Address % Block Size) </code>.</p>
+
+
+
+<br>
+</div>

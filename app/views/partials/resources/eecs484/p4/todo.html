@@ -1,0 +1,183 @@
+<div class="container resources" id="eecs484">
+
+<h1 id="to-do">To Do</h1>
+<p>Implement important relational operators and utilities. Find class definitions in <a href="query.h">query.h</a>. Fill in the implementations of these operators in files:</p>
+<ul>
+<li><label>
+  <input type="checkbox" class="task-list-item-checkbox">
+   <a href="#insert">insert.cpp</a>
+</label></li>
+<li>
+	<label>
+  		<input type="checkbox" class="task-list-item-checkbox">
+   		<a href="#select">select.cpp</a>
+	</label>
+	<ul>
+		<li><label>
+  			<input type="checkbox" class="task-list-item-checkbox">
+   			<a href="#indexselect">indexselect.cpp</a>
+			</label>
+		</li>
+		<li><label>
+  			<input type="checkbox" class="task-list-item-checkbox">
+   			<a href="#scanselect">scanselect.cpp</a>
+		</label></li>
+	</ul>
+</li>
+<li><label>
+  <input type="checkbox" class="task-list-item-checkbox">
+   <a href="#join">join.cpp</a>
+</label>
+<ul>
+	<li><label>
+	  <input type="checkbox" class="task-list-item-checkbox">
+	   <a href="#snl">snl.cpp</a>
+	</label></li>
+	<li><label>
+	  <input type="checkbox" class="task-list-item-checkbox">
+	   <a href="#inl">inl.cpp</a>
+	</label></li>
+	<li><label>
+	  <input type="checkbox" class="task-list-item-checkbox">
+	   <a href="#smj">smj.cpp</a>
+	</label></li>
+</ul>
+
+</li>
+
+
+</ul>
+<h2 id="from-getting-started-section">From "Getting Started" Section</h2>
+<blockquote>
+<p>A good starting point is to implement the insert method first.</p>
+</blockquote>
+<p>To insert a record into "stars", the insert method needs to:</p>
+<ol>
+<li>Insert the record into the Heapfile corresponding to "stars"</li>
+<li>Insert the record ID into each index that exists on "stars"</li>
+</ol>
+<p>To insert the record, you first need to map the data from the arguments to insert into a Record object</p>
+<p>The Record object is defined in <a href="page.h">page.h</a> as:</p>
+<pre class="editor-colors"><code class="lang-cpp">struct Record {
+   void* data;
+   int length;
+}
+</code></pre>
+<p>The data that is passed in is in <em>attrList</em>, which is an array of <em>attrInfo</em> objects. <em>attrInfo</em> is defined in <a href="catalog.h">catalog.h</a> as:</p>
+<pre class="editor-colors"><code class="lang-cpp">typedef struct {
+   char relName[MAXNAME];   // relation name
+   char attrName[MAXNAME];  // attribute name
+   int attrType;            // INTEGER, DOUBLE, or STRING
+   int attrLen;             // length of attribute in bytes
+   void *attrValue          // ptr to binary value (used by the
+                            //    parser for insert into statements)
+} attrInfo;
+</code></pre>
+<p>For the INSERT command:</p>
+<pre class="editor-colors"><code class="lang-sql">INSERT INTO stars(starid, real_name, plays, soapid)
+   VALUES (100, 'Posey, Parker', 'Tess', 6);
+</code></pre>
+<p>the four elements of the array will be something like the following:</p>
+<pre class="editor-colors"><code>[
+   &lt;"stars", "starid", INTEGER, -1, pointer to 4 bytes containing 100&gt;,
+   &lt;"stars", "real_name", STRING, -1, pointer to "Posey, Parker"&gt;,
+   &lt;"stars", "plays", STRING, -1, pointer to "Tess"&gt;,
+   &lt;"stars", "soapid", INTEGER, -1, pointer to 4 bytes containing 6&gt;,
+]
+</code></pre>
+
+<h2 id="insert" style="border-bottom: 2px solid black;
+padding: 10px 0;">Inserting a Record</h2>
+
+<p>To insert the record, you first need to map the data from the arguments to insert into a Record object</p>
+<p>The Record object is defined in <a href="page.h">page.h</a> as:</p>
+<pre class="editor-colors"><code class="lang-cpp">struct Record {
+   void* data;
+   int length;
+}
+</code></pre>
+<p>The data that is passed in is in <em>attrList</em>, which is an array of <em>attrInfo</em> objects. <em>attrInfo</em> is defined in <a href="catalog.h">catalog.h</a> as:</p>
+<pre class="editor-colors"><code class="lang-cpp">typedef struct {
+   char relName[MAXNAME];   // relation name
+   char attrName[MAXNAME];  // attribute name
+   int attrType;            // INTEGER, DOUBLE, or STRING
+   int attrLen;             // length of attribute in bytes
+   void *attrValue          // ptr to binary value (used by the
+                            //    parser for insert into statements)
+} attrInfo;
+</code></pre>
+<p><em>attrCat</em> is a global variable that points to the attribute table for the catalog.</p>
+<pre class="editor-colors"><code class="lang-cpp"> const Status getInfo(const string &amp; rName,
+               const string &amp; attrName,
+               AttrDesc &amp;record);
+</code></pre>
+<p>The AttrDesc struct is defined as:</p>
+<pre class="editor-colors"><code class="lang-cpp">typedef struct {
+  char relName[MAXNAME];                // relation name
+  char attrName[MAXNAME];               // attribute name
+  int attrOffset;                       // attribute offset
+  int attrType;                         // attribute type
+  int attrLen;                          // attribute length
+  int indexed;                          // TRUE if indexed
+} AttrDesc;
+</code></pre>
+<br>
+<p style="font-size: 18px;">At this point, you have all the information to</p>
+<ol>
+<li><a href="#allocate-memory">allocate the memory for a record</a></li>
+<li><a href="#fill-with-data">fill it with data</a></li>
+<li><a href="#insert-into-heapfile">insert it into the heapfile</a></li>
+</ol><br>
+<h3 id="allocate-memory">To allocate the memory for the record</h4>
+<ul>
+<li>you need to know the record size</li>
+<li>create a Record object</li>
+<li>allocate the correct number of bytes (record size) for the data field of the record</li>
+</ul><br>
+<h3 id="fill-with-data">Fill it with data</h4>
+<ul>
+<li>fill with data from the attrList</li>
+<li>use the C++ built-in function <a href="http://www.cplusplus.com/reference/cstring/memcpy/">memcpy</a> to do that</li>
+<li>rely on the data from the RelDesc object returned by the getInfo call to determine:<ul>
+<li>the offsets for each attribute</li>
+<li>the # of bytes to copy</li>
+</ul>
+</li>
+</ul><br>
+<h3 id="insert-into-heapfile">Insert the record into the heapfile</h4>
+<ul>
+<li>Once the record is created, call insertRecord on the ehapfile for the relation</li>
+<li>FIRST, the constructor for the "relation" heapfile needs to be called<ul>
+<li>creates a heapfile if one doesn't exist</li>
+<li>if one exists, it opens the heapfile</li>
+</ul>
+</li>
+<li>THEN, the record you created needs to be inserted</li>
+<li>This returns a Record ID</li>
+</ul><br><br>
+<h3 id="index-the-record">Index the Record</h4>
+<ul>
+<li>The Record ID you just created needs to be inserted in each index for the relation</li>
+<li>To determine if there is one or more index for the relation, you need to look at the catalogs</li>
+</ul>
+
+
+<h2 id="select" style="border-bottom: 2px solid black;
+padding: 10px 0;">Selecting a Record</h2>
+
+<h3 id="indexselect" style="padding: 10px 0;">Index Select</h2>
+
+<h3 id="scanselect" style="padding: 10px 0;">Scan Select</h2>
+
+<h2 id="join" style="border-bottom: 2px solid black;
+padding: 10px 0;">Joining Two Relations</h2>
+
+<p>This function joins two relations based on the predicate specified using the variables “attr1 op attr2”. You must implement three join algorithms: simple-nested loops (not the page oriented or block-nested loops), indexed-nested loops and sort-merge join. These three algorithms must be implemented as separate function called SNL, INL, and SMJ respectively, in the files snl.cpp, inl.cpp and smj.cpp.</p>
+
+<h3 id="snl" style="padding: 10px 0;">Simple-Nested Loop</h2>
+
+<h3 id="inl" style="padding: 10px 0;">Index-Nested Loop</h2>
+
+<h3 id="smj" style="padding: 10px 0;">Sort-Merge Join</h2>
+
+</div>
