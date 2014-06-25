@@ -51,7 +51,6 @@ main.scss:3
 /Users/steinbergkh/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
 */
 body:before {
-    white-space: pre;
-    font-family: monospace;
-    content: "Syntax error: File to import not found or unreadable: bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.\A               Load path: /Users/steinbergkh/Documents/Programming/personal-website/app/styles\A         on line 3 of main.scss\A \A 1: $icon-font-path: \"/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/\";\A 2: \A 3: @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';\A 4: \A 5: /* COLOR SCHEME */\A 6: $cream: #ffffe3;\A 7: $turquoise: #00a5a6;\A 8: $hot-pink: #FF2468;";
-}
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.\A               Load path: /Users/steinbergkh/Documents/Programming/personal-website/app/styles\A         on line 3 of main.scss\A \A 1: $icon-font-path: \"/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/\";\A 2: \A 3: @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';\A 4: \A 5: /* COLOR SCHEME */\A 6: $cream: #ffffe3;\A 7: $turquoise: #00a5a6;\A 8: $hot-pink: #FF2468;"; }
