@@ -6,12 +6,13 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 $cream: #ffffe3;
 $turquoise: #00a5a6;
 $hot-pink: #FF2468;
+$dark-gray: #464646;
 
 body {
   font-family: "Open Sans", Calibri, Candara, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.428571429;
-  color: #ffffe3;
+  color: $dark-gray;
   background-color: #ffffe3;
   margin: 0;
   display: block;
