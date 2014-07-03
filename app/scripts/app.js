@@ -5,7 +5,8 @@ var app = angular.module('ktsteinbergApp', [
     'ngResource',
     'ngSanitize',
     'ngRoute',
-    'ngPDFViewer'
+    'ngPDFViewer',
+    'ui.bootstrap'
 ]);
 app.config(function ($routeProvider, $locationProvider) {
     $routeProvider
