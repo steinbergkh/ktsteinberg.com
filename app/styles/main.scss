@@ -505,3 +505,27 @@ a.hide-link {
   background-color: $cream;
 }
 
+$user-pic-size: 300px;
+
+.katie-pic {
+  width: $user-pic-size;
+  padding: 2px;
+  margin: 0 auto;
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
+
+.circle-image {
+  width: $user-pic-size;
+  height: $user-pic-size;
+  border-radius: 50%;
+  background-image: url("../images/ktsteinberg.jpg");
+  display: block;
+  background-position: 77% 25%;
+  background-size: 250%;
+  background-repeat: no-repeat;
+}
+
+.header {
+  border: none;
+}
