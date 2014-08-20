@@ -133,17 +133,11 @@ body {
 @import url("//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
 
 
-#name-container {
-  font-family: 'Lobster', cursive;
-  color: #FF2468;
-  text-align: center;
-  padding: 0 40px 5px 20px;
-  font-size: 95px;
-}
+
 
 .center {
   margin: 0 auto;
-  width: 80%;
+  width: 95%;
 }
 
 #video-container{
@@ -218,12 +212,6 @@ div#project-container{
   padding: 0;
 }
 
-.project li{
-  margin: 10px 30px 5px 15px;
-  font-size: 18px;
-  line-height: 25px;
-}
-
 div.project{
   //display: inline;
   background: rgb(0, 165, 166);
@@ -240,7 +228,7 @@ div.project-title{
   margin-bottom: 5px;
 }
 div.project-title.adpi{
-  height: 105px;
+  height: 50px;
 }
 
 .project img{
@@ -252,30 +240,30 @@ div.project-title.adpi{
 }
 .project img.horizontal{
   margin: 0 5px;
-  width:240px;
+  width:190px;
 }
 .project img.vertical{
   padding: 2px;
   margin: -14px 3px 5px 2px;
-  height: 100px;
+  height: 60px;
 }
 .project div.header{
   display: inline-block;
-  margin-left: 15px;
-  margin-top: -6px;
+  padding: 0px;
+  margin-top: 5px;
   color: white;
 }
 .project a:hover{
   color: white;
 }
 .project .header h2{
-  font-size: 28px;
+  font-size: 20px;
   display: inline;
   padding:5px 2px;
   margin-top:-8px;
 }
 .project .header h3{
-  font-size: 24px;
+  font-size: 18px;
   display: inline;
   padding:5px 2px;
   margin-top: 15px;
@@ -284,10 +272,10 @@ div.project-title.adpi{
   margin-top:0;
 }
 .project .header.adpi h2{
-  font-size: 34px;
+  font-size: 22px;
 }
 .project .header.adpi h3{
-  font-size: 26px;
+  font-size: 20px;
 }
 .project ul{
   display: block;
@@ -374,7 +362,7 @@ div.contact-form #message{
   text-align: left;
   padding: 10px 20px 15px 20px;
   margin: 0;
-  font-size: 60px;
+  font-size: 20px;
 }
 
 .contact-form input[type="button"]{
@@ -444,7 +432,7 @@ canvas {
 
 .raleway {
   font-family: 'Raleway', sans-serif;
-  font-size: 26px;
+  font-size: 18px;
   color: $turquoise;
   margin-bottom: 10px;
 }
@@ -458,7 +446,7 @@ canvas {
 
 /* CODEIVATE STATS ON MAIN PAGE */
 .codeivate-stats {
-  font-size: 22px;
+  font-size: 15px;
   color: $turquoise;
   display: inline;
   margin: 0 auto;
@@ -468,13 +456,13 @@ canvas {
 
 .current-language {
   font-weight: bold;
-  font-size: 26px;
+  font-size: 17px;
   color: $hot-pink;
   display: inline;
 }
 
 .codeivate-thanks {
-  font-size: 12px;
+  font-size: 9px;
   padding: 10px;
 }
 
@@ -507,8 +495,16 @@ a.hide-link {
 
 $user-pic-size: 300px;
 
+$user-pic-mobile-size: 150px;
+
+
+
+.header {
+  border: none;
+}
+
 .katie-pic {
-  width: $user-pic-size;
+  width: $user-pic-mobile-size;
   padding: 2px;
   margin: 0 auto;
   margin-top: -20px;
@@ -516,8 +512,8 @@ $user-pic-size: 300px;
 }
 
 .circle-image {
-  width: $user-pic-size;
-  height: $user-pic-size;
+  width: $user-pic-mobile-size;
+  height: $user-pic-mobile-size;
   border-radius: 50%;
   background-image: url("../images/ktsteinberg.jpg");
   display: block;
@@ -526,6 +522,149 @@ $user-pic-size: 300px;
   background-repeat: no-repeat;
 }
 
-.header {
-  border: none;
+#name-container {
+  font-family: 'Lobster', cursive;
+  color: #FF2468;
+  text-align: center;
+  padding: 0 10px 0px 5px;
+  font-size: 55px;
+}
+
+@media (min-width: $screen-md-min) {
+  #name-container {
+    font-family: 'Lobster', cursive;
+    color: #FF2468;
+    text-align: center;
+    padding: 0 40px 5px 20px;
+    font-size: 95px;
+  }
+
+  .katie-pic {
+    width: $user-pic-size;
+    padding: 2px;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-bottom: 15px;
+  }
+
+  .circle-image {
+    width: $user-pic-size;
+    height: $user-pic-size;
+    border-radius: 50%;
+    background-image: url("../images/ktsteinberg.jpg");
+    display: block;
+    background-position: 77% 25%;
+    background-size: 250%;
+    background-repeat: no-repeat;
+  }
+
+  .raleway {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: $turquoise;
+    margin-bottom: 10px;
+  }
+
+  .codeivate-stats {
+    font-size: 22px;
+    color: $turquoise;
+    display: inline;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%
+  }
+
+  .current-language {
+    font-weight: bold;
+    font-size: 26px;
+    color: $hot-pink;
+    display: inline;
+  }
+
+  .codeivate-thanks {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .contact-form h2{
+    font-family: 'Lobster', cursive;
+    color: #FF2468;
+    text-align: left;
+    padding: 10px 20px 15px 20px;
+    margin: 0;
+    font-size: 60px;
+  }
+
+
+  /* PROJECTS SECTION */
+  .project .header.adpi h2{
+    font-size: 34px;
+  }
+  .project .header.adpi h3{
+    font-size: 26px;
+  }
+
+  .project li{
+    margin: 10px 30px 5px 15px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  div.project{
+    //display: inline;
+    background: rgb(0, 165, 166);
+    padding: 15px;
+    margin: 10px auto 40px auto;
+    vertical-align: middle;
+    border-radius: 10px;
+    width: 95%;
+  }
+
+  div.project-title.adpi{
+    height: 105px;
+  }
+
+  .project img{
+    float: left;
+    background: rgba(0, 91, 99, 0.12);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top:-6px;
+  }
+  .project img.horizontal{
+    margin: 0 5px;
+    width:240px;
+  }
+  .project img.vertical{
+    padding: 2px;
+    margin: -14px 3px 5px 2px;
+    height: 100px;
+  }
+  .project div.header{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: -6px;
+    color: white;
+  }
+  .project a:hover{
+    color: white;
+  }
+  .project .header h2{
+    font-size: 28px;
+    display: inline;
+    padding:5px 2px;
+    margin-top:-8px;
+  }
+  .project .header h3{
+    font-size: 24px;
+    display: inline;
+    padding:5px 2px;
+    margin-top: 15px;
+  }
+
+  .center {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  /* END PROJECTS SECTION */
 }
