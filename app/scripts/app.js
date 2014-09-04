@@ -66,6 +66,10 @@ app.config(function ($routeProvider, $locationProvider) {
             templateUrl: 'partials/contact.html',
             controller: 'MainCtrl'
         })
+        .when('/parallax', {
+            templateUrl: 'partials/parallax.html',
+            controller: 'MainCtrl'
+        })
         .when('/google6b0201a211ea9ed3.html', {
             templateUrl: 'app/views/partials/google6b0201a211ea9ed3.html',
             controller: 'MainCtrl'

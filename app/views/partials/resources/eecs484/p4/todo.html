@@ -1,3 +1,4 @@
+<div ng-include="'partials/navbar'"></div><div class="container">
 <div class="container resources" id="eecs484">
 
 <h1 id="to-do">To Do</h1>
@@ -128,13 +129,13 @@ padding: 10px 0;">Inserting a Record</h2>
 <li><a href="#fill-with-data">fill it with data</a></li>
 <li><a href="#insert-into-heapfile">insert it into the heapfile</a></li>
 </ol><br>
-<h3 id="allocate-memory">To allocate the memory for the record</h4>
+<h3 id="allocate-memory">To allocate the memory for the record</h3>
 <ul>
 <li>you need to know the record size</li>
 <li>create a Record object</li>
 <li>allocate the correct number of bytes (record size) for the data field of the record</li>
 </ul><br>
-<h3 id="fill-with-data">Fill it with data</h4>
+<h3 id="fill-with-data">Fill it with data</h3>
 <ul>
 <li>fill with data from the attrList</li>
 <li>use the C++ built-in function <a href="http://www.cplusplus.com/reference/cstring/memcpy/">memcpy</a> to do that</li>
@@ -144,9 +145,9 @@ padding: 10px 0;">Inserting a Record</h2>
 </ul>
 </li>
 </ul><br>
-<h3 id="insert-into-heapfile">Insert the record into the heapfile</h4>
+<h3 id="insert-into-heapfile">Insert the record into the heapfile</h3>
 <ul>
-<li>Once the record is created, call insertRecord on the ehapfile for the relation</li>
+<li>Once the record is created, call insertRecord on the heapfile for the relation</li>
 <li>FIRST, the constructor for the "relation" heapfile needs to be called<ul>
 <li>creates a heapfile if one doesn't exist</li>
 <li>if one exists, it opens the heapfile</li>
@@ -155,7 +156,7 @@ padding: 10px 0;">Inserting a Record</h2>
 <li>THEN, the record you created needs to be inserted</li>
 <li>This returns a Record ID</li>
 </ul><br><br>
-<h3 id="index-the-record">Index the Record</h4>
+<h3 id="index-the-record">Index the Record</h3>
 <ul>
 <li>The Record ID you just created needs to be inserted in each index for the relation</li>
 <li>To determine if there is one or more index for the relation, you need to look at the catalogs</li>
@@ -165,19 +166,19 @@ padding: 10px 0;">Inserting a Record</h2>
 <h2 id="select" style="border-bottom: 2px solid black;
 padding: 10px 0;">Selecting a Record</h2>
 
-<h3 id="indexselect" style="padding: 10px 0;">Index Select</h2>
+<h3 id="indexselect" style="padding: 10px 0;">Index Select</h3>
 
-<h3 id="scanselect" style="padding: 10px 0;">Scan Select</h2>
+<h3 id="scanselect" style="padding: 10px 0;">Scan Select</h3>
 
 <h2 id="join" style="border-bottom: 2px solid black;
 padding: 10px 0;">Joining Two Relations</h2>
 
 <p>This function joins two relations based on the predicate specified using the variables “attr1 op attr2”. You must implement three join algorithms: simple-nested loops (not the page oriented or block-nested loops), indexed-nested loops and sort-merge join. These three algorithms must be implemented as separate function called SNL, INL, and SMJ respectively, in the files snl.cpp, inl.cpp and smj.cpp.</p>
 
-<h3 id="snl" style="padding: 10px 0;">Simple-Nested Loop</h2>
+<h3 id="snl" style="padding: 10px 0;">Simple-Nested Loop</h3>
 
-<h3 id="inl" style="padding: 10px 0;">Index-Nested Loop</h2>
+<h3 id="inl" style="padding: 10px 0;">Index-Nested Loop</h3>
 
-<h3 id="smj" style="padding: 10px 0;">Sort-Merge Join</h2>
+<h3 id="smj" style="padding: 10px 0;">Sort-Merge Join</h3>
 
-</div>
+</div></div>

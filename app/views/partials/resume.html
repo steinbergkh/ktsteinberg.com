@@ -1,5 +1,14 @@
+<div ng-include="'partials/navbar'"></div><div class="container">
+<div class="container">
 <div class="pdf">
     <!-- <span>{{currentPage}}/{{totalPages}}</span> -->
     <br>
+    <a href="images/KatieSteinbergResume.pdf" target="_self" download>
+        <span id="download-btn" class="btn btn-default btn-pink">
+            <i class="glyphicon glyphicon-download-alt"></i> Download
+        </span>
+    </a>
+    <br>
     <pdfviewer src="images/KatieSteinbergResume.pdf" on-page-load='pageLoaded(page,total)' id="viewer" zoomLevel="200"></pdfviewer>
 </div>
+</div></div>
